@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this evaluation, its records or its method, please cite it as below."
+title: "Searchable Agent Memory at Ten Million Tokens: OpenCrawl on BEAM"
+type: software
+authors:
+  - name: "OpenCrawl team"
+date-released: 2026-11-12
+url: "https://github.com/getopencrawl/beam-eval"
+repository-code: "https://github.com/getopencrawl/beam-eval"
+license: Apache-2.0  # the code; the records under results/ and memory/ are CC BY-SA 4.0 (NOTICE.md)
+keywords:
+  - benchmark
+  - long-term memory
+  - agent memory
+  - retrieval
+  - evaluation
+references:
+  - type: conference-paper
+    title: "Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs"
+    authors:
+      - family-names: Tavakoli
+        given-names: Mohammad
+      - family-names: Salemi
+        given-names: Alireza
+      - family-names: Ye
+        given-names: Carrie
+      - family-names: Abdalla
+        given-names: Mohamed
+      - family-names: Zamani
+        given-names: Hamed
+      - family-names: Mitchell
+        given-names: J Ross
+    year: 2026
+    collection-title: "International Conference on Learning Representations (ICLR)"
+    identifiers:
+      - type: other
+        value: "arXiv:2510.27246"

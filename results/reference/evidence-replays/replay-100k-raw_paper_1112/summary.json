@@ -1,0 +1,59 @@
+{
+  "questions": 400,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.603831345767001,
+  "macroAverage": 0.603831345767001,
+  "categories": {
+    "abstention": {
+      "questions": 40,
+      "mean": 0.7
+    },
+    "contradiction_resolution": {
+      "questions": 40,
+      "mean": 0.309375
+    },
+    "event_ordering": {
+      "questions": 40,
+      "mean": 0.5595485767176296
+    },
+    "information_extraction": {
+      "questions": 40,
+      "mean": 0.8880208333333334
+    },
+    "instruction_following": {
+      "questions": 40,
+      "mean": 0.584375
+    },
+    "knowledge_update": {
+      "questions": 40,
+      "mean": 0.54375
+    },
+    "multi_session_reasoning": {
+      "questions": 40,
+      "mean": 0.5377083333333333
+    },
+    "preference_following": {
+      "questions": 40,
+      "mean": 0.8385416666666666
+    },
+    "summarization": {
+      "questions": 40,
+      "mean": 0.45511904761904765
+    },
+    "temporal_reasoning": {
+      "questions": 40,
+      "mean": 0.621875
+    }
+  },
+  "split": "100k",
+  "variant": "raw",
+  "repeat": 2,
+  "answerReasoning": "none",
+  "prompt": "paper",
+  "answerModel": "gpt-5.6-luna",
+  "judgeModel": "gpt-5.6-luna",
+  "datasetRevision": "3205395e897e7318c7b094ef4e6047b9b82dbb03",
+  "finishedAt": "2026-11-12T09:26:40.302608Z",
+  "note": "usage was not recorded for this run: its summary was written afterwards from its records"
+}

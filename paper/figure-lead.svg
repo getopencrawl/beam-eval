@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 460" width="860" height="460" role="img" aria-labelledby="fig-title fig-desc" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<title id="fig-title">OpenCrawl's lead over the reference evidence on BEAM, by conversation length and answer prompt</title>
+<desc id="fig-desc">Dot and interval chart. For each conversation length and for all splits together, the lead of OpenCrawl over the reference system's evidence in points, with its 95% interval, under BEAM's own prompt and under the annotation-aided prompt. Under BEAM's own prompt the interval lies wholly above zero at 100K, 1M and for all splits together; under the annotation-aided prompt the interval lies wholly above zero at 1M and for all splits together.</desc>
+<style>.surface{fill:#fcfcfb} .t1{fill:#0b0b0b} .t2{fill:#52514e} .t3{fill:#898781} .grid{stroke:#e1e0d9} .axis{stroke:#c3c2b7} .s1{stroke:#2a78d6;fill:#2a78d6} .s2{stroke:#eb6834;fill:#eb6834} .ring{stroke:#fcfcfb} @media (prefers-color-scheme: dark){.surface{fill:#1a1a19} .t1{fill:#f0efec} .t2{fill:#c3c2b7} .t3{fill:#898781} .grid{stroke:#2c2c2a} .axis{stroke:#383835} .s1{stroke:#3987e5;fill:#3987e5} .s2{stroke:#d95926;fill:#d95926} .ring{stroke:#1a1a19}}</style>
+<rect class="surface" width="860" height="460"/>
+<text class="t1" x="24" y="30" font-size="15" font-weight="600">OpenCrawl's lead over the reference evidence, in points</text>
+<text class="t2" x="24" y="50" font-size="12">Same answer model and judge for both systems; dot = mean lead, line = 95% t interval over conversations</text>
+<line class="s1" x1="24" x2="50" y1="74" y2="74" stroke-width="2" stroke-linecap="round"/><circle class="s1" cx="37" cy="74" r="4.5" stroke="none"/><text class="t2" x="58" y="78" font-size="12">BEAM&#x27;s own prompt (no annotations)</text>
+<line class="s2" x1="324.0" x2="350.0" y1="74" y2="74" stroke-width="2" stroke-linecap="round"/><circle class="s2" cx="337.0" cy="74" r="4.5" stroke="none"/><text class="t2" x="358.0" y="78" font-size="12">Annotation-aided prompt</text>
+<line class="grid" x1="150.0" x2="150.0" y1="94" y2="404" stroke-width="1"/>
+<text class="t3" x="150.0" y="422" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">−4</text>
+<line class="grid" x1="228.8" x2="228.8" y1="94" y2="404" stroke-width="1"/>
+<text class="t3" x="228.8" y="422" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">−2</text>
+<line class="axis" x1="307.6" x2="307.6" y1="94" y2="404" stroke-width="1"/>
+<text class="t3" x="307.6" y="422" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">0</text>
+<line class="grid" x1="386.5" x2="386.5" y1="94" y2="404" stroke-width="1"/>
+<text class="t3" x="386.5" y="422" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">+2</text>
+<line class="grid" x1="465.3" x2="465.3" y1="94" y2="404" stroke-width="1"/>
+<text class="t3" x="465.3" y="422" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">+4</text>
+<line class="grid" x1="544.1" x2="544.1" y1="94" y2="404" stroke-width="1"/>
+<text class="t3" x="544.1" y="422" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">+6</text>
+<line class="grid" x1="622.9" x2="622.9" y1="94" y2="404" stroke-width="1"/>
+<text class="t3" x="622.9" y="422" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">+8</text>
+<line class="grid" x1="701.8" x2="701.8" y1="94" y2="404" stroke-width="1"/>
+<text class="t3" x="701.8" y="422" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">+10</text>
+<line class="grid" x1="780.6" x2="780.6" y1="94" y2="404" stroke-width="1"/>
+<text class="t3" x="780.6" y="422" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">+12</text>
+<text class="t2" x="485.0" y="444" font-size="12" text-anchor="middle">Lead over the reference evidence (points; right of 0 = OpenCrawl ahead)</text>
+<text class="t1" x="24" y="128.0" font-size="13" font-weight="600">100K</text><text class="t3" x="24" y="144.0" font-size="11">400 questions</text>
+<g><title>100K, BEAM&#x27;s own prompt (no annotations): +3.00 points (95% interval +0.36 to +5.64)</title><rect x="315.8" y="107.0" width="220.1" height="24" fill="none" pointer-events="all"/><line class="s1" x1="321.8" x2="529.9" y1="119.0" y2="119.0" stroke-width="2" stroke-linecap="round"/><circle class="s1 ring" cx="425.9" cy="119.0" r="5.5" stroke-width="2"/></g>
+<g><title>100K, Annotation−aided prompt: +0.66 points (95% interval −0.68 to +2.00)</title><rect x="274.8" y="127.0" width="117.6" height="24" fill="none" pointer-events="all"/><line class="s2" x1="280.8" x2="386.5" y1="139.0" y2="139.0" stroke-width="2" stroke-linecap="round"/><circle class="s2 ring" cx="333.7" cy="139.0" r="5.5" stroke-width="2"/></g>
+<text class="t1" x="24" y="186.0" font-size="13" font-weight="600">500K</text><text class="t3" x="24" y="202.0" font-size="11">700 questions</text>
+<g><title>500K, BEAM&#x27;s own prompt (no annotations): +1.15 points (95% interval −0.41 to +2.71)</title><rect x="285.5" y="165.0" width="135.0" height="24" fill="none" pointer-events="all"/><line class="s1" x1="291.5" x2="414.5" y1="177.0" y2="177.0" stroke-width="2" stroke-linecap="round"/><circle class="s1 ring" cx="353.0" cy="177.0" r="5.5" stroke-width="2"/></g>
+<g><title>500K, Annotation−aided prompt: +0.38 points (95% interval −0.59 to +1.36)</title><rect x="278.4" y="185.0" width="88.9" height="24" fill="none" pointer-events="all"/><line class="s2" x1="284.4" x2="361.2" y1="197.0" y2="197.0" stroke-width="2" stroke-linecap="round"/><circle class="s2 ring" cx="322.6" cy="197.0" r="5.5" stroke-width="2"/></g>
+<text class="t1" x="24" y="244.0" font-size="13" font-weight="600">1M</text><text class="t3" x="24" y="260.0" font-size="11">700 questions</text>
+<g><title>1M, BEAM&#x27;s own prompt (no annotations): +3.36 points (95% interval +1.38 to +5.33)</title><rect x="356.0" y="223.0" width="167.7" height="24" fill="none" pointer-events="all"/><line class="s1" x1="362.0" x2="517.7" y1="235.0" y2="235.0" stroke-width="2" stroke-linecap="round"/><circle class="s1 ring" cx="440.1" cy="235.0" r="5.5" stroke-width="2"/></g>
+<g><title>1M, Annotation−aided prompt: +1.70 points (95% interval +0.63 to +2.78)</title><rect x="326.5" y="243.0" width="96.7" height="24" fill="none" pointer-events="all"/><line class="s2" x1="332.5" x2="417.2" y1="255.0" y2="255.0" stroke-width="2" stroke-linecap="round"/><circle class="s2 ring" cx="374.6" cy="255.0" r="5.5" stroke-width="2"/></g>
+<text class="t1" x="24" y="302.0" font-size="13" font-weight="600">10M</text><text class="t3" x="24" y="318.0" font-size="11">200 questions</text>
+<g><title>10M, BEAM&#x27;s own prompt (no annotations): +4.86 points (95% interval −0.72 to +10.44)</title><rect x="273.3" y="281.0" width="451.8" height="24" fill="none" pointer-events="all"/><line class="s1" x1="279.3" x2="719.1" y1="293.0" y2="293.0" stroke-width="2" stroke-linecap="round"/><circle class="s1 ring" cx="499.2" cy="293.0" r="5.5" stroke-width="2"/></g>
+<g><title>10M, Annotation−aided prompt: −0.25 points (95% interval −2.13 to +1.64)</title><rect x="217.7" y="301.0" width="160.6" height="24" fill="none" pointer-events="all"/><line class="s2" x1="223.7" x2="372.3" y1="313.0" y2="313.0" stroke-width="2" stroke-linecap="round"/><circle class="s2 ring" cx="297.8" cy="313.0" r="5.5" stroke-width="2"/></g>
+<line class="grid" x1="24" x2="820" y1="339.0" y2="339.0" stroke-width="1"/>
+<text class="t1" x="24" y="374.0" font-size="13" font-weight="600">All splits</text><text class="t3" x="24" y="390.0" font-size="11">2,000 questions</text>
+<g><title>All splits, BEAM&#x27;s own prompt (no annotations): +2.66 points (95% interval +1.55 to +3.78)</title><rect x="362.7" y="353.0" width="99.9" height="24" fill="none" pointer-events="all"/><line class="s1" x1="368.7" x2="456.6" y1="365.0" y2="365.0" stroke-width="2" stroke-linecap="round"/><circle class="s1 ring" cx="412.5" cy="365.0" r="5.5" stroke-width="2"/></g>
+<text x="468.6" y="369.0" font-size="12"><tspan class="t1" font-weight="600">+2.66</tspan><tspan class="t2" dx="6">BEAM&#x27;s own prompt</tspan></text>
+<g><title>All splits, Annotation−aided prompt: +0.84 points (95% interval +0.25 to +1.43)</title><rect x="311.5" y="373.0" width="58.5" height="24" fill="none" pointer-events="all"/><line class="s2" x1="317.5" x2="364.0" y1="385.0" y2="385.0" stroke-width="2" stroke-linecap="round"/><circle class="s2 ring" cx="340.8" cy="385.0" r="5.5" stroke-width="2"/></g>
+<text x="376.0" y="389.0" font-size="12"><tspan class="t1" font-weight="600">+0.84</tspan><tspan class="t2" dx="6">annotation-aided prompt</tspan></text>
+</svg>

@@ -1,0 +1,60 @@
+{
+  "questions": 700,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.8862327097505668,
+  "macroAverage": 0.8862327097505668,
+  "categories": {
+    "abstention": {
+      "questions": 70,
+      "mean": 0.9404761904761904
+    },
+    "contradiction_resolution": {
+      "questions": 70,
+      "mean": 0.7309523809523809
+    },
+    "event_ordering": {
+      "questions": 70,
+      "mean": 0.9996825396825396
+    },
+    "information_extraction": {
+      "questions": 70,
+      "mean": 0.8423129251700681
+    },
+    "instruction_following": {
+      "questions": 70,
+      "mean": 0.9293650793650794
+    },
+    "knowledge_update": {
+      "questions": 70,
+      "mean": 0.8559523809523809
+    },
+    "multi_session_reasoning": {
+      "questions": 70,
+      "mean": 0.656547619047619
+    },
+    "preference_following": {
+      "questions": 70,
+      "mean": 0.9888888888888889
+    },
+    "summarization": {
+      "questions": 70,
+      "mean": 0.9812443310657597
+    },
+    "temporal_reasoning": {
+      "questions": 70,
+      "mean": 0.9369047619047618
+    }
+  },
+  "split": "500k",
+  "answers": "the run 500k-search-exabase-t13-notes2 (results/opencrawl/development/)",
+  "repeat": 3,
+  "judgeModel": "gpt-5.6-luna",
+  "usage": {
+    "judge": {
+      "calls": 5877,
+      "prompt_tokens": 4090128,
+      "completion_tokens": 239680
+    }
+  }
+}

@@ -1,0 +1,3162 @@
+{
+ "summary": {
+  "contradiction_resolution": {
+   "questions": 20,
+   "hit@10": 0.8,
+   "hit@40": 0.9,
+   "recall@10": 0.521,
+   "recall@40": 0.567
+  },
+  "event_ordering": {
+   "questions": 20,
+   "hit@10": 0.2,
+   "hit@40": 0.3,
+   "recall@10": 0.012,
+   "recall@40": 0.054
+  },
+  "information_extraction": {
+   "questions": 20,
+   "hit@10": 0.6,
+   "hit@40": 0.75,
+   "recall@10": 0.56,
+   "recall@40": 0.72
+  },
+  "instruction_following": {
+   "questions": 20,
+   "hit@10": 0.0,
+   "hit@40": 0.0,
+   "recall@10": 0.0,
+   "recall@40": 0.0
+  },
+  "knowledge_update": {
+   "questions": 20,
+   "hit@10": 0.8,
+   "hit@40": 0.95,
+   "recall@10": 0.519,
+   "recall@40": 0.703
+  },
+  "multi_session_reasoning": {
+   "questions": 20,
+   "hit@10": 0.3,
+   "hit@40": 0.45,
+   "recall@10": 0.13,
+   "recall@40": 0.235
+  },
+  "preference_following": {
+   "questions": 20,
+   "hit@10": 0.2,
+   "hit@40": 0.4,
+   "recall@10": 0.167,
+   "recall@40": 0.267
+  },
+  "summarization": {
+   "questions": 16,
+   "hit@10": 0.125,
+   "hit@40": 0.125,
+   "recall@10": 0.023,
+   "recall@40": 0.023
+  },
+  "temporal_reasoning": {
+   "questions": 20,
+   "hit@10": 0.2,
+   "hit@40": 0.55,
+   "recall@10": 0.071,
+   "recall@40": 0.23
+  },
+  "ALL": {
+   "questions": 176,
+   "hit@10": 0.364,
+   "hit@40": 0.5,
+   "recall@10": 0.227,
+   "recall@40": 0.317
+  }
+ },
+ "questions": [
+  {
+   "conversation": "1",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "6402",
+    "6404"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "1",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "11886",
+    "11892",
+    "12038"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "1",
+   "category": "event_ordering",
+   "evidence": [
+    "3996",
+    "4212",
+    "4214",
+    "4222",
+    "4224",
+    "4226",
+    "4234",
+    "4236",
+    "4238",
+    "4434",
+    "4436",
+    "4438",
+    "4440",
+    "4444",
+    "4446",
+    "4448",
+    "4450",
+    "4452",
+    "4650",
+    "4652",
+    "4664",
+    "4666",
+    "4668",
+    "4670",
+    "4672",
+    "4674",
+    "4900",
+    "5078",
+    "5084",
+    "5086",
+    "5088",
+    "5116",
+    "5172",
+    "5246",
+    "5256",
+    "5258",
+    "5428",
+    "5430",
+    "5442",
+    "5444",
+    "5452",
+    "5454",
+    "5456",
+    "5624",
+    "5630",
+    "5632",
+    "5634",
+    "5804",
+    "5816",
+    "5818",
+    "5820",
+    "5828",
+    "5830",
+    "5832",
+    "6066",
+    "6080",
+    "6082",
+    "6260",
+    "6262",
+    "6264",
+    "6408",
+    "6450",
+    "6452",
+    "6566",
+    "6568",
+    "6602",
+    "6768",
+    "6770",
+    "6952",
+    "7050",
+    "7124",
+    "7126",
+    "7350",
+    "7528",
+    "7534",
+    "7544",
+    "7546",
+    "7548",
+    "7588",
+    "7712",
+    "7714",
+    "7716",
+    "7718"
+   ],
+   "recall@10": 0.024096385542168676,
+   "hit@10": 1,
+   "recall@40": 0.04819277108433735,
+   "hit@40": 1
+  },
+  {
+   "conversation": "1",
+   "category": "information_extraction",
+   "evidence": [
+    "13779"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "1",
+   "category": "event_ordering",
+   "evidence": [
+    "10088",
+    "10090",
+    "10092",
+    "10102",
+    "10278",
+    "10284",
+    "10476",
+    "10478",
+    "10760",
+    "10762",
+    "10764",
+    "10772",
+    "10774",
+    "10966",
+    "10968",
+    "10970",
+    "10976",
+    "10978",
+    "10980",
+    "10986",
+    "11146",
+    "11148",
+    "11154",
+    "11354",
+    "11356",
+    "11358",
+    "11372",
+    "11374",
+    "11376",
+    "11536",
+    "11542",
+    "11746",
+    "11752",
+    "7928",
+    "7932",
+    "7934",
+    "8154",
+    "8156",
+    "8158",
+    "8408",
+    "8412",
+    "8420",
+    "8602",
+    "8604",
+    "8610",
+    "8786",
+    "8926",
+    "8936",
+    "8942",
+    "9130",
+    "9132",
+    "9138",
+    "9144",
+    "9290",
+    "9296",
+    "9506",
+    "9518",
+    "9520",
+    "9724",
+    "9726",
+    "9728",
+    "9736",
+    "9738",
+    "9898",
+    "9904",
+    "9906"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "1",
+   "category": "information_extraction",
+   "evidence": [
+    "4900"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "1",
+   "category": "instruction_following",
+   "evidence": [
+    "10376",
+    "10378"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "1",
+   "category": "knowledge_update",
+   "evidence": [
+    "8122",
+    "8348"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "1",
+   "category": "instruction_following",
+   "evidence": [
+    "4896",
+    "4898"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "1",
+   "category": "knowledge_update",
+   "evidence": [
+    "12074",
+    "12196"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "1",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "1886",
+    "2270"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.5,
+   "hit@40": 1
+  },
+  {
+   "conversation": "1",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "11898",
+    "12054",
+    "12232"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "1",
+   "category": "preference_following",
+   "evidence": [
+    "1478",
+    "1492"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "1",
+   "category": "preference_following",
+   "evidence": [
+    "1856",
+    "1862"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "1",
+   "category": "summarization",
+   "evidence": [
+    "5674",
+    "7767",
+    "7771",
+    "7773"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "1",
+   "category": "summarization",
+   "evidence": [
+    "1485",
+    "168",
+    "1684",
+    "20",
+    "27",
+    "3394",
+    "3626",
+    "3814",
+    "3820",
+    "712"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "1",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "13775",
+    "15675"
+   ],
+   "recall@10": 0.5,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "1",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "7882",
+    "7884",
+    "7888",
+    "7892",
+    "7896",
+    "9850",
+    "9852",
+    "9854",
+    "9856",
+    "9864",
+    "9866",
+    "9868"
+   ],
+   "recall@10": 0.16666666666666666,
+   "hit@10": 1,
+   "recall@40": 0.25,
+   "hit@40": 1
+  },
+  {
+   "conversation": "2",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "15437",
+    "15443",
+    "15451"
+   ],
+   "recall@10": 0.3333333333333333,
+   "hit@10": 1,
+   "recall@40": 0.3333333333333333,
+   "hit@40": 1
+  },
+  {
+   "conversation": "2",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "2144",
+    "2152",
+    "2218"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "2",
+   "category": "information_extraction",
+   "evidence": [
+    "11624"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "2",
+   "category": "information_extraction",
+   "evidence": [
+    "14703"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "2",
+   "category": "knowledge_update",
+   "evidence": [
+    "17449",
+    "17461"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "2",
+   "category": "instruction_following",
+   "evidence": [
+    "1680"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "2",
+   "category": "instruction_following",
+   "evidence": [
+    "6212",
+    "6214",
+    "6216",
+    "6218"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "2",
+   "category": "event_ordering",
+   "evidence": [
+    "1132",
+    "1138",
+    "1300",
+    "1534",
+    "1542",
+    "1712",
+    "204",
+    "28",
+    "3384",
+    "3390",
+    "394",
+    "404",
+    "584",
+    "590",
+    "754",
+    "954"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "2",
+   "category": "event_ordering",
+   "evidence": [
+    "15375",
+    "15381",
+    "15537",
+    "15539",
+    "15541",
+    "15737",
+    "15743",
+    "15911",
+    "15913",
+    "15923",
+    "16061",
+    "16257",
+    "16259",
+    "16487",
+    "16493",
+    "16679",
+    "16681",
+    "16683",
+    "16685",
+    "16687",
+    "16871",
+    "16873",
+    "16881",
+    "17045",
+    "17047",
+    "17059",
+    "17437",
+    "17447",
+    "17649",
+    "17651",
+    "17653",
+    "17655",
+    "17657",
+    "17659"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "2",
+   "category": "knowledge_update",
+   "evidence": [
+    "9632",
+    "9890"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "2",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "7548",
+    "8074",
+    "8228",
+    "8412",
+    "8636",
+    "9064",
+    "9260"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "2",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "11496",
+    "11806",
+    "11960"
+   ],
+   "recall@10": 0.6666666666666666,
+   "hit@10": 1,
+   "recall@40": 0.6666666666666666,
+   "hit@40": 1
+  },
+  {
+   "conversation": "2",
+   "category": "preference_following",
+   "evidence": [
+    "5570",
+    "5574"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "2",
+   "category": "preference_following",
+   "evidence": [
+    "5760"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "2",
+   "category": "summarization",
+   "evidence": [
+    "3888",
+    "3890",
+    "3891",
+    "3898",
+    "3899",
+    "3902",
+    "3984",
+    "3989",
+    "3994",
+    "4070",
+    "4072",
+    "4082",
+    "4085",
+    "4264",
+    "4265",
+    "4272",
+    "4569",
+    "4573",
+    "6272",
+    "6277",
+    "6462",
+    "6463",
+    "6465",
+    "6467",
+    "6476",
+    "6477",
+    "6880",
+    "6881",
+    "6883",
+    "6885",
+    "6968",
+    "6969",
+    "7040",
+    "7041",
+    "7050",
+    "7051",
+    "7412",
+    "7413",
+    "7418",
+    "7419",
+    "7421",
+    "7424",
+    "7425",
+    "7426",
+    "7427",
+    "7428",
+    "7429",
+    "7496",
+    "7497",
+    "7503"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "2",
+   "category": "summarization",
+   "evidence": [
+    "11364",
+    "11514",
+    "11830",
+    "11986",
+    "13017",
+    "13209",
+    "14525",
+    "14921",
+    "15109"
+   ],
+   "recall@10": 0.1111111111111111,
+   "hit@10": 1,
+   "recall@40": 0.1111111111111111,
+   "hit@40": 1
+  },
+  {
+   "conversation": "2",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "15279",
+    "17147"
+   ],
+   "recall@10": 0.5,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "2",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "0",
+    "1860"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.5,
+   "hit@40": 1
+  },
+  {
+   "conversation": "3",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "10078"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "3",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "10292",
+    "10294",
+    "10304"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.3333333333333333,
+   "hit@40": 1
+  },
+  {
+   "conversation": "3",
+   "category": "event_ordering",
+   "evidence": [
+    "4416",
+    "4630",
+    "4808",
+    "4978",
+    "5150",
+    "5384",
+    "5534",
+    "5714",
+    "5896",
+    "6078",
+    "6250",
+    "6390",
+    "6686",
+    "6856",
+    "7022",
+    "7222",
+    "7448",
+    "7632",
+    "7794",
+    "7968"
+   ],
+   "recall@10": 0.1,
+   "hit@10": 1,
+   "recall@40": 0.15,
+   "hit@40": 1
+  },
+  {
+   "conversation": "3",
+   "category": "information_extraction",
+   "evidence": [
+    "2172"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "3",
+   "category": "event_ordering",
+   "evidence": [
+    "11904",
+    "11912",
+    "12248",
+    "12304",
+    "12426",
+    "12432",
+    "12442",
+    "12460",
+    "12652",
+    "12654",
+    "12656",
+    "12824",
+    "12830",
+    "12832",
+    "12838",
+    "12840",
+    "12980",
+    "12992",
+    "13000",
+    "13176",
+    "13392",
+    "13406",
+    "13590",
+    "13604",
+    "15216",
+    "15226"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "3",
+   "category": "information_extraction",
+   "evidence": [
+    "1"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "3",
+   "category": "instruction_following",
+   "evidence": [
+    "4804"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "3",
+   "category": "instruction_following",
+   "evidence": [
+    "10396",
+    "10398"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "3",
+   "category": "knowledge_update",
+   "evidence": [
+    "10074",
+    "9938"
+   ],
+   "recall@10": 0.5,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "3",
+   "category": "knowledge_update",
+   "evidence": [
+    "14078",
+    "14084",
+    "14234",
+    "14236"
+   ],
+   "recall@10": 0.25,
+   "hit@10": 1,
+   "recall@40": 0.5,
+   "hit@40": 1
+  },
+  {
+   "conversation": "3",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "13986",
+    "14154",
+    "14350"
+   ],
+   "recall@10": 0.3333333333333333,
+   "hit@10": 1,
+   "recall@40": 0.6666666666666666,
+   "hit@40": 1
+  },
+  {
+   "conversation": "3",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "8380",
+    "8560",
+    "8568"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "3",
+   "category": "preference_following",
+   "evidence": [
+    "5556"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "3",
+   "category": "summarization",
+   "evidence": [
+    "4416",
+    "4434",
+    "4446",
+    "4464"
+   ],
+   "recall@10": 0.25,
+   "hit@10": 1,
+   "recall@40": 0.25,
+   "hit@40": 1
+  },
+  {
+   "conversation": "3",
+   "category": "preference_following",
+   "evidence": [
+    "5750"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "3",
+   "category": "summarization",
+   "evidence": [
+    "11904",
+    "11934",
+    "12014",
+    "12018",
+    "14466"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "3",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "3120",
+    "3122",
+    "3124",
+    "852"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.25,
+   "hit@40": 1
+  },
+  {
+   "conversation": "3",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "13798",
+    "15794"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.5,
+   "hit@40": 1
+  },
+  {
+   "conversation": "4",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "7210",
+    "7212"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "4",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "10928",
+    "10938",
+    "10946",
+    "11108"
+   ],
+   "recall@10": 0.25,
+   "hit@10": 1,
+   "recall@40": 0.25,
+   "hit@40": 1
+  },
+  {
+   "conversation": "4",
+   "category": "event_ordering",
+   "evidence": [
+    "10702",
+    "10892",
+    "10894",
+    "10902",
+    "11112",
+    "11126",
+    "11318",
+    "11324",
+    "11336",
+    "11416",
+    "11528",
+    "11534",
+    "11594",
+    "11596",
+    "11598",
+    "11732",
+    "11820",
+    "11822",
+    "11918",
+    "11926",
+    "11944",
+    "12164",
+    "12166",
+    "12196",
+    "12216",
+    "12398",
+    "12400",
+    "12402",
+    "12618",
+    "12620",
+    "12622",
+    "12630",
+    "12632"
+   ],
+   "recall@10": 0.09090909090909091,
+   "hit@10": 1,
+   "recall@40": 0.24242424242424243,
+   "hit@40": 1
+  },
+  {
+   "conversation": "4",
+   "category": "information_extraction",
+   "evidence": [
+    "3804"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "4",
+   "category": "event_ordering",
+   "evidence": [
+    "0",
+    "1400",
+    "144",
+    "152",
+    "1604",
+    "1750",
+    "1764",
+    "2086",
+    "2240",
+    "2286",
+    "2406",
+    "2556",
+    "2752",
+    "2906",
+    "296",
+    "940"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.5625,
+   "hit@40": 1
+  },
+  {
+   "conversation": "4",
+   "category": "information_extraction",
+   "evidence": [
+    "5290"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "4",
+   "category": "instruction_following",
+   "evidence": [
+    "13314",
+    "13316"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "4",
+   "category": "knowledge_update",
+   "evidence": [
+    "162",
+    "290"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "4",
+   "category": "knowledge_update",
+   "evidence": [
+    "134",
+    "28"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "4",
+   "category": "instruction_following",
+   "evidence": [
+    "2082"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "4",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "100",
+    "442",
+    "734"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.3333333333333333,
+   "hit@40": 1
+  },
+  {
+   "conversation": "4",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "7404",
+    "7405",
+    "7730"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "4",
+   "category": "preference_following",
+   "evidence": [
+    "2330",
+    "2332",
+    "2340"
+   ],
+   "recall@10": 0.3333333333333333,
+   "hit@10": 1,
+   "recall@40": 0.3333333333333333,
+   "hit@40": 1
+  },
+  {
+   "conversation": "4",
+   "category": "preference_following",
+   "evidence": [
+    "2330",
+    "2332",
+    "2340"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "4",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "2240",
+    "2242",
+    "2286",
+    "638",
+    "640",
+    "642"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.16666666666666666,
+   "hit@40": 1
+  },
+  {
+   "conversation": "5",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "3590",
+    "3596",
+    "3684"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "4",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "3214",
+    "5238"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.5,
+   "hit@40": 1
+  },
+  {
+   "conversation": "5",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "16666",
+    "16674",
+    "16680"
+   ],
+   "recall@10": 0.6666666666666666,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "5",
+   "category": "event_ordering",
+   "evidence": [
+    "3544",
+    "3554",
+    "3558",
+    "3686",
+    "3688",
+    "3700",
+    "3702",
+    "3704",
+    "3928",
+    "3930",
+    "3936",
+    "4096",
+    "4098",
+    "4100",
+    "4290",
+    "4462",
+    "4482",
+    "4506",
+    "4508",
+    "4634",
+    "4636",
+    "4644",
+    "4648",
+    "4650",
+    "4686",
+    "4802",
+    "4870",
+    "4872",
+    "4874",
+    "4968",
+    "4970",
+    "5152",
+    "5342",
+    "5344",
+    "5358",
+    "5538",
+    "5540",
+    "5548",
+    "5700",
+    "5702",
+    "5722",
+    "5732",
+    "5864",
+    "5866",
+    "5868",
+    "5874",
+    "5876",
+    "6022",
+    "6024",
+    "6026",
+    "6030",
+    "6032",
+    "6182",
+    "6184",
+    "6190",
+    "6192",
+    "6212",
+    "6320",
+    "6484",
+    "6486",
+    "6494",
+    "6496",
+    "6660",
+    "6666",
+    "6668",
+    "6820",
+    "6822"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "5",
+   "category": "information_extraction",
+   "evidence": [
+    "7906"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "5",
+   "category": "event_ordering",
+   "evidence": [
+    "10196",
+    "10374",
+    "10384",
+    "10386",
+    "10486",
+    "10488",
+    "10490",
+    "10544",
+    "10546",
+    "10736",
+    "7068",
+    "7078",
+    "7238",
+    "7240",
+    "7242",
+    "7248",
+    "7396",
+    "7416",
+    "7608",
+    "7610",
+    "7664",
+    "7666",
+    "7668",
+    "7756",
+    "7758",
+    "7760",
+    "7936",
+    "7944",
+    "7958",
+    "7966",
+    "7968",
+    "8092",
+    "8094",
+    "8202",
+    "8254",
+    "8256",
+    "8358",
+    "8360",
+    "8370",
+    "8372",
+    "8524",
+    "8534",
+    "8684",
+    "8860",
+    "8866",
+    "9018",
+    "9024",
+    "9028",
+    "9172",
+    "9178",
+    "9322",
+    "9502",
+    "9504",
+    "9532",
+    "9562",
+    "9658",
+    "9660",
+    "9838",
+    "9840",
+    "9842",
+    "9870",
+    "9872",
+    "9942",
+    "9944",
+    "9946",
+    "9952",
+    "9954"
+   ],
+   "recall@10": 0.029850746268656716,
+   "hit@10": 1,
+   "recall@40": 0.04477611940298507,
+   "hit@40": 1
+  },
+  {
+   "conversation": "5",
+   "category": "information_extraction",
+   "evidence": [
+    "12942"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "5",
+   "category": "instruction_following",
+   "evidence": [
+    "13602",
+    "13604"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "5",
+   "category": "instruction_following",
+   "evidence": [
+    "11500"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "5",
+   "category": "knowledge_update",
+   "evidence": [
+    "7070"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "5",
+   "category": "knowledge_update",
+   "evidence": [
+    "5542",
+    "5544",
+    "5550",
+    "5552",
+    "5694"
+   ],
+   "recall@10": 0.4,
+   "hit@10": 1,
+   "recall@40": 0.4,
+   "hit@40": 1
+  },
+  {
+   "conversation": "5",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "3276",
+    "3277",
+    "74"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "5",
+   "category": "preference_following",
+   "evidence": [
+    "2172",
+    "2178"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "5",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "3548",
+    "4102",
+    "6322"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.3333333333333333,
+   "hit@40": 1
+  },
+  {
+   "conversation": "5",
+   "category": "preference_following",
+   "evidence": [
+    "2172",
+    "2178"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "5",
+   "category": "summarization",
+   "evidence": [
+    "7068",
+    "7069",
+    "7070",
+    "7071",
+    "7072",
+    "7073",
+    "7080",
+    "7081",
+    "7082",
+    "7083",
+    "7084",
+    "7086",
+    "7088",
+    "7090",
+    "7092",
+    "7095",
+    "7096",
+    "7100",
+    "7102",
+    "7110",
+    "7112",
+    "7160",
+    "7173",
+    "7191",
+    "7237",
+    "9131",
+    "9141",
+    "9163"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "5",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "14660",
+    "14666",
+    "16608",
+    "16610"
+   ],
+   "recall@10": 0.25,
+   "hit@10": 1,
+   "recall@40": 0.25,
+   "hit@40": 1
+  },
+  {
+   "conversation": "5",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "10894",
+    "10918",
+    "12916",
+    "12918"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "4034",
+    "4164"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "6",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "136",
+    "148",
+    "214"
+   ],
+   "recall@10": 0.6666666666666666,
+   "hit@10": 1,
+   "recall@40": 0.6666666666666666,
+   "hit@40": 1
+  },
+  {
+   "conversation": "6",
+   "category": "event_ordering",
+   "evidence": [
+    "3974",
+    "3976",
+    "3982",
+    "3990",
+    "4170",
+    "4172",
+    "4174",
+    "4184",
+    "4372",
+    "4378",
+    "4384",
+    "4556",
+    "4564",
+    "4566",
+    "4572",
+    "4748",
+    "4754",
+    "4756",
+    "4762",
+    "4952",
+    "5134",
+    "5142",
+    "5144",
+    "5330",
+    "5336",
+    "5342",
+    "5526",
+    "5538",
+    "5540",
+    "5718",
+    "5726",
+    "5732",
+    "5918",
+    "5926",
+    "5932",
+    "6108",
+    "6304",
+    "6502",
+    "6688",
+    "6880",
+    "6888",
+    "7076",
+    "7276",
+    "7452",
+    "7454",
+    "7462",
+    "7638"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "event_ordering",
+   "evidence": [
+    "--",
+    "2080",
+    "2086",
+    "2092",
+    "2478",
+    "2484",
+    "2490",
+    "2860",
+    "2866",
+    "2872",
+    "3248",
+    "3442",
+    "3448",
+    "3456",
+    "3458",
+    "3460",
+    "3838",
+    "3844",
+    "3850"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "information_extraction",
+   "evidence": [
+    "13908"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "6",
+   "category": "information_extraction",
+   "evidence": [
+    "18266"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "6",
+   "category": "instruction_following",
+   "evidence": [
+    "14636"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "instruction_following",
+   "evidence": [
+    "6098"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "knowledge_update",
+   "evidence": [
+    "15896",
+    "15988"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "6",
+   "category": "knowledge_update",
+   "evidence": [
+    "10010",
+    "10016",
+    "10020",
+    "10160"
+   ],
+   "recall@10": 0.75,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "6",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "7822",
+    "7825",
+    "9390"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "11834",
+    "12028",
+    "12620",
+    "13472",
+    "14063",
+    "14262"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "preference_following",
+   "evidence": [
+    "2750",
+    "2760"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "preference_following",
+   "evidence": [
+    "2048",
+    "2050",
+    "2060"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "summarization",
+   "evidence": [
+    "15802",
+    "15996",
+    "16204",
+    "17378"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "summarization",
+   "evidence": [
+    "11808",
+    "11809",
+    "12202",
+    "12406",
+    "13078",
+    "13450",
+    "14462",
+    "15412"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "3972",
+    "5914"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "6",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "12442",
+    "14484",
+    "14492"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "7",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "9664",
+    "9670",
+    "9818"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "7",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "11820",
+    "11834",
+    "11942"
+   ],
+   "recall@10": 0.3333333333333333,
+   "hit@10": 1,
+   "recall@40": 0.3333333333333333,
+   "hit@40": 1
+  },
+  {
+   "conversation": "7",
+   "category": "event_ordering",
+   "evidence": [
+    "13926",
+    "13932",
+    "13936",
+    "14142",
+    "14148",
+    "14156",
+    "14340",
+    "14348",
+    "14354",
+    "14912",
+    "14924",
+    "14926",
+    "15946",
+    "15950",
+    "15952",
+    "15954",
+    "16138",
+    "16140",
+    "16144",
+    "16152",
+    "16154",
+    "16156",
+    "16362",
+    "16736",
+    "16742",
+    "16936",
+    "17122",
+    "17124",
+    "17126",
+    "17132",
+    "17138",
+    "17318",
+    "17508",
+    "17510",
+    "17512",
+    "17756",
+    "17764",
+    "17766"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.02631578947368421,
+   "hit@40": 1
+  },
+  {
+   "conversation": "7",
+   "category": "information_extraction",
+   "evidence": [
+    "15962"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "7",
+   "category": "event_ordering",
+   "evidence": [
+    "4810",
+    "4824",
+    "4832",
+    "4834",
+    "5034",
+    "5040",
+    "5226",
+    "5236",
+    "5238",
+    "5422",
+    "5440",
+    "5442",
+    "5444",
+    "5850",
+    "6044",
+    "6046",
+    "6052",
+    "6056",
+    "6236",
+    "6424",
+    "6428",
+    "6432",
+    "6612",
+    "6614",
+    "6798",
+    "6986",
+    "6992",
+    "6998",
+    "7192",
+    "7194",
+    "7196",
+    "7418",
+    "7420",
+    "7428",
+    "7644",
+    "7646",
+    "7648",
+    "7658",
+    "7660",
+    "7670",
+    "8270",
+    "8272",
+    "8470",
+    "8762",
+    "8764",
+    "8766",
+    "9152",
+    "9324",
+    "9326",
+    "9328"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "7",
+   "category": "information_extraction",
+   "evidence": [
+    "2318"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "7",
+   "category": "instruction_following",
+   "evidence": [
+    "3700"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "7",
+   "category": "instruction_following",
+   "evidence": [
+    "5218"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "7",
+   "category": "knowledge_update",
+   "evidence": [
+    "7270",
+    "7276",
+    "7284",
+    "7408"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.25,
+   "hit@40": 1
+  },
+  {
+   "conversation": "7",
+   "category": "knowledge_update",
+   "evidence": [
+    "10010",
+    "9848",
+    "9856",
+    "9862"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.25,
+   "hit@40": 1
+  },
+  {
+   "conversation": "7",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "2456",
+    "3136"
+   ],
+   "recall@10": 0.5,
+   "hit@10": 1,
+   "recall@40": 0.5,
+   "hit@40": 1
+  },
+  {
+   "conversation": "7",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "14548",
+    "14738",
+    "15576"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "7",
+   "category": "preference_following",
+   "evidence": [
+    "4876",
+    "4886",
+    "4896"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.3333333333333333,
+   "hit@40": 1
+  },
+  {
+   "conversation": "7",
+   "category": "preference_following",
+   "evidence": [
+    "9698",
+    "9704"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.5,
+   "hit@40": 1
+  },
+  {
+   "conversation": "7",
+   "category": "summarization",
+   "evidence": [
+    "2387",
+    "2645",
+    "3301",
+    "4079"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "7",
+   "category": "summarization",
+   "evidence": [
+    "4810",
+    "4824",
+    "5440",
+    "6998"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "7",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "146",
+    "154",
+    "2408",
+    "2418",
+    "2424"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "7584",
+    "7588",
+    "7594",
+    "7694"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.25,
+   "hit@40": 1
+  },
+  {
+   "conversation": "7",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "13960",
+    "13970",
+    "13976",
+    "15976",
+    "15984",
+    "15990",
+    "15992"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "7918",
+    "7926",
+    "7928",
+    "7932",
+    "8096"
+   ],
+   "recall@10": 0.2,
+   "hit@10": 1,
+   "recall@40": 0.2,
+   "hit@40": 1
+  },
+  {
+   "conversation": "8",
+   "category": "event_ordering",
+   "evidence": [
+    "1142",
+    "1148",
+    "1156",
+    "16",
+    "1748",
+    "1756",
+    "1758",
+    "1760",
+    "1994",
+    "2004",
+    "2010",
+    "2216",
+    "2224",
+    "2226",
+    "2228",
+    "2230",
+    "2476",
+    "2478",
+    "2480",
+    "2482",
+    "2484",
+    "2730",
+    "2736",
+    "2742",
+    "3042",
+    "3052",
+    "3058",
+    "3352",
+    "3354",
+    "3356",
+    "3372",
+    "3378",
+    "3380",
+    "3500",
+    "3502",
+    "3504",
+    "3648",
+    "3650",
+    "3652",
+    "3658",
+    "3660",
+    "3666",
+    "368",
+    "370",
+    "378",
+    "380",
+    "384",
+    "3878",
+    "3888",
+    "3900",
+    "4320",
+    "4336",
+    "4338",
+    "4584",
+    "4590",
+    "4592",
+    "4598",
+    "5018",
+    "5020",
+    "5026",
+    "6",
+    "638",
+    "640",
+    "646",
+    "648",
+    "650",
+    "654",
+    "884",
+    "892",
+    "894",
+    "898"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "event_ordering",
+   "evidence": [
+    "5180",
+    "5190",
+    "5198",
+    "5200",
+    "5202",
+    "5504",
+    "5510",
+    "5516",
+    "5808",
+    "5810",
+    "5812",
+    "5826",
+    "5828",
+    "5830",
+    "6070",
+    "7550",
+    "7736",
+    "7940",
+    "8138",
+    "8324",
+    "8594",
+    "8784",
+    "8978",
+    "9180",
+    "9388"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "information_extraction",
+   "evidence": [
+    "5678"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "information_extraction",
+   "evidence": [
+    "12048"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "instruction_following",
+   "evidence": [
+    "9964"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "instruction_following",
+   "evidence": [
+    "10618"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "knowledge_update",
+   "evidence": [
+    "13816",
+    "13826",
+    "14014"
+   ],
+   "recall@10": 0.3333333333333333,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "8",
+   "category": "knowledge_update",
+   "evidence": [
+    "18130",
+    "18132",
+    "18142",
+    "18144",
+    "18316"
+   ],
+   "recall@10": 0.4,
+   "hit@10": 1,
+   "recall@40": 0.4,
+   "hit@40": 1
+  },
+  {
+   "conversation": "8",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "18436",
+    "18678",
+    "19786"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "13634",
+    "13824"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "preference_following",
+   "evidence": [
+    "902",
+    "908",
+    "912"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "preference_following",
+   "evidence": [
+    "4898"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "summarization",
+   "evidence": [
+    "5084",
+    "5090",
+    "5448",
+    "6440",
+    "6882"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "5080",
+    "7510"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "8",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "13610",
+    "13618",
+    "13620",
+    "13626",
+    "15658",
+    "15660",
+    "15662",
+    "15664",
+    "15666",
+    "15690",
+    "15692"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.09090909090909091,
+   "hit@40": 1
+  },
+  {
+   "conversation": "8",
+   "category": "summarization",
+   "evidence": [
+    "15805",
+    "15813",
+    "16610",
+    "16617",
+    "17203",
+    "17703",
+    "17955"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "2874",
+    "2890",
+    "3110",
+    "3112",
+    "3114"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "15808",
+    "15810",
+    "15812",
+    "15814",
+    "15816",
+    "15942"
+   ],
+   "recall@10": 0.3333333333333333,
+   "hit@10": 1,
+   "recall@40": 0.3333333333333333,
+   "hit@40": 1
+  },
+  {
+   "conversation": "9",
+   "category": "event_ordering",
+   "evidence": [
+    "5060",
+    "5258",
+    "5466",
+    "5680",
+    "5882",
+    "6082",
+    "6294",
+    "6498",
+    "6690",
+    "6900"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "information_extraction",
+   "evidence": [
+    "18804"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "9",
+   "category": "instruction_following",
+   "evidence": [
+    "14498"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "event_ordering",
+   "evidence": [
+    "13660",
+    "13662",
+    "13670",
+    "13674",
+    "13676",
+    "13876",
+    "13878",
+    "13880",
+    "14120",
+    "14122",
+    "14126",
+    "14132",
+    "14310",
+    "14502",
+    "14508",
+    "14516",
+    "14706",
+    "14708",
+    "14902",
+    "14910",
+    "14914",
+    "15094",
+    "15300",
+    "15304",
+    "15310",
+    "15492",
+    "15500"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "instruction_following",
+   "evidence": [
+    "14698"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "information_extraction",
+   "evidence": [
+    "13660",
+    "13662",
+    "13674",
+    "13675",
+    "13677"
+   ],
+   "recall@10": 0.2,
+   "hit@10": 1,
+   "recall@40": 0.4,
+   "hit@40": 1
+  },
+  {
+   "conversation": "9",
+   "category": "knowledge_update",
+   "evidence": [
+    "866",
+    "872",
+    "874",
+    "966"
+   ],
+   "recall@10": 0.5,
+   "hit@10": 1,
+   "recall@40": 0.75,
+   "hit@40": 1
+  },
+  {
+   "conversation": "9",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "1050",
+    "1051",
+    "1058",
+    "1240",
+    "1241"
+   ],
+   "recall@10": 0.4,
+   "hit@10": 1,
+   "recall@40": 0.4,
+   "hit@40": 1
+  },
+  {
+   "conversation": "9",
+   "category": "knowledge_update",
+   "evidence": [
+    "20566",
+    "20570",
+    "20572",
+    "20708"
+   ],
+   "recall@10": 0.75,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "9",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "9598",
+    "9612"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "preference_following",
+   "evidence": [
+    "13682",
+    "13684",
+    "13690",
+    "13694",
+    "13696"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "preference_following",
+   "evidence": [
+    "11504",
+    "11506",
+    "11508"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "summarization",
+   "evidence": [
+    "5060",
+    "5062",
+    "5258",
+    "5466",
+    "5680"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "summarization",
+   "evidence": [
+    "18320",
+    "18540",
+    "18960",
+    "19200",
+    "19420"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "14900",
+    "14908",
+    "14912",
+    "14916",
+    "15944",
+    "15950"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "9",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "11760",
+    "11762",
+    "11766",
+    "9134",
+    "9136",
+    "9138",
+    "9152",
+    "9154",
+    "9156",
+    "9168"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.1,
+   "hit@40": 1
+  },
+  {
+   "conversation": "10",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "7252",
+    "7254",
+    "7260",
+    "7266",
+    "7502",
+    "7504",
+    "7506"
+   ],
+   "recall@10": 0.14285714285714285,
+   "hit@10": 1,
+   "recall@40": 0.14285714285714285,
+   "hit@40": 1
+  },
+  {
+   "conversation": "10",
+   "category": "contradiction_resolution",
+   "evidence": [
+    "9756",
+    "9988"
+   ],
+   "recall@10": 0.5,
+   "hit@10": 1,
+   "recall@40": 0.5,
+   "hit@40": 1
+  },
+  {
+   "conversation": "10",
+   "category": "event_ordering",
+   "evidence": [
+    "1118",
+    "1128",
+    "1408",
+    "1414",
+    "1416",
+    "1418",
+    "1422",
+    "1706",
+    "1974",
+    "2256",
+    "350",
+    "360",
+    "364",
+    "40",
+    "54",
+    "574",
+    "614",
+    "68",
+    "904"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "10",
+   "category": "information_extraction",
+   "evidence": [
+    "7282"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "10",
+   "category": "event_ordering",
+   "evidence": [
+    "10000",
+    "10274",
+    "10520",
+    "10522",
+    "10524",
+    "10776",
+    "10780",
+    "11182",
+    "11394",
+    "12200",
+    "13126",
+    "13128",
+    "13134",
+    "13136",
+    "13138",
+    "13140",
+    "13324",
+    "13532",
+    "14030",
+    "14036",
+    "9500",
+    "9502",
+    "9508",
+    "9514",
+    "9752",
+    "9994"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "10",
+   "category": "information_extraction",
+   "evidence": [
+    "14280",
+    "14282"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "10",
+   "category": "instruction_following",
+   "evidence": [
+    "12898"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "10",
+   "category": "instruction_following",
+   "evidence": [
+    "8010"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "10",
+   "category": "knowledge_update",
+   "evidence": [
+    "3102",
+    "3110",
+    "3112",
+    "3116"
+   ],
+   "recall@10": 0.25,
+   "hit@10": 1,
+   "recall@40": 0.25,
+   "hit@40": 1
+  },
+  {
+   "conversation": "10",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "2983",
+    "3603"
+   ],
+   "recall@10": 0.5,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "10",
+   "category": "knowledge_update",
+   "evidence": [
+    "9598",
+    "9608",
+    "9616",
+    "9750"
+   ],
+   "recall@10": 0.25,
+   "hit@10": 1,
+   "recall@40": 0.25,
+   "hit@40": 1
+  },
+  {
+   "conversation": "10",
+   "category": "multi_session_reasoning",
+   "evidence": [
+    "16574",
+    "16580",
+    "18674",
+    "18675",
+    "18892",
+    "18893",
+    "18898",
+    "18899",
+    "18904",
+    "18905"
+   ],
+   "recall@10": 0.2,
+   "hit@10": 1,
+   "recall@40": 0.3,
+   "hit@40": 1
+  },
+  {
+   "conversation": "10",
+   "category": "preference_following",
+   "evidence": [
+    "3654",
+    "3660",
+    "3662",
+    "3666",
+    "3668",
+    "3672"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.16666666666666666,
+   "hit@40": 1
+  },
+  {
+   "conversation": "10",
+   "category": "preference_following",
+   "evidence": [
+    "5146"
+   ],
+   "recall@10": 1.0,
+   "hit@10": 1,
+   "recall@40": 1.0,
+   "hit@40": 1
+  },
+  {
+   "conversation": "10",
+   "category": "summarization",
+   "evidence": [
+    "24",
+    "25",
+    "27",
+    "2730",
+    "274",
+    "285",
+    "30",
+    "34",
+    "3545",
+    "36",
+    "3747",
+    "44",
+    "45",
+    "4661",
+    "4685",
+    "4821",
+    "4857",
+    "4863",
+    "58",
+    "59"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "10",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "4892",
+    "7250"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  },
+  {
+   "conversation": "10",
+   "category": "temporal_reasoning",
+   "evidence": [
+    "14238",
+    "14260",
+    "14266",
+    "16440",
+    "16442"
+   ],
+   "recall@10": 0.0,
+   "hit@10": 0,
+   "recall@40": 0.0,
+   "hit@40": 0
+  }
+ ]
+}

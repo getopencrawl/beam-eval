@@ -1,0 +1,81 @@
+{
+  "dataset": "BEAM",
+  "split": "1m",
+  "datasetRevision": "3205395e897e7318c7b094ef4e6047b9b82dbb03",
+  "conversations": 35,
+  "questions": 700,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.5535067945885513,
+  "macroAverage": 0.5535067945885513,
+  "categories": {
+    "abstention": {
+      "questions": 70,
+      "mean": 0.6857142857142857
+    },
+    "contradiction_resolution": {
+      "questions": 70,
+      "mean": 0.31785714285714284
+    },
+    "event_ordering": {
+      "questions": 70,
+      "mean": 0.5450254288787107
+    },
+    "information_extraction": {
+      "questions": 70,
+      "mean": 0.6414455782312926
+    },
+    "instruction_following": {
+      "questions": 70,
+      "mean": 0.5565476190476191
+    },
+    "knowledge_update": {
+      "questions": 70,
+      "mean": 0.5428571428571428
+    },
+    "multi_session_reasoning": {
+      "questions": 70,
+      "mean": 0.5086989795918367
+    },
+    "preference_following": {
+      "questions": 70,
+      "mean": 0.7571428571428571
+    },
+    "summarization": {
+      "questions": 70,
+      "mean": 0.5095408163265306
+    },
+    "temporal_reasoning": {
+      "questions": 70,
+      "mean": 0.4702380952380952
+    }
+  },
+  "system": "OpenCrawl self-hosted (opencrawl-core deploy/ stack)",
+  "retrieval": "search",
+  "prompt": "paper",
+  "searchLimit": 40,
+  "evidenceTokens": 8000,
+  "maxSteps": null,
+  "answerModel": "gpt-5.6-luna",
+  "judgeModel": "gpt-5.6-luna",
+  "reasoningEffort": "none",
+  "prompts": {
+    "source": "https://fabric.so/p/beam-3VjBcqEVRofZyA5CeazeX",
+    "sha256": "584b672d957f3e6f75e96f881ec31da22e1039da1df5fbedb53dc6a9145cfc43"
+  },
+  "usage": {
+    "answer": {
+      "calls": 700,
+      "prompt_tokens": 5711824,
+      "completion_tokens": 69878
+    },
+    "judge": {
+      "calls": 4237,
+      "prompt_tokens": 977702,
+      "completion_tokens": 116043
+    }
+  },
+  "harnessVersion": "opencrawl-1",
+  "finishedAt": "2026-11-09T04:22:39.202290Z",
+  "elapsed": "8m47s"
+}

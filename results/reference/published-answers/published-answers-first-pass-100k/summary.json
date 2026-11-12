@@ -1,0 +1,60 @@
+{
+  "questions": 400,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.9112380952380953,
+  "macroAverage": 0.9112380952380953,
+  "categories": {
+    "abstention": {
+      "questions": 40,
+      "mean": 0.975
+    },
+    "contradiction_resolution": {
+      "questions": 40,
+      "mean": 0.75
+    },
+    "event_ordering": {
+      "questions": 40,
+      "mean": 1.0
+    },
+    "information_extraction": {
+      "questions": 40,
+      "mean": 0.9458333333333334
+    },
+    "instruction_following": {
+      "questions": 40,
+      "mean": 0.9375
+    },
+    "knowledge_update": {
+      "questions": 40,
+      "mean": 0.89375
+    },
+    "multi_session_reasoning": {
+      "questions": 40,
+      "mean": 0.679047619047619
+    },
+    "preference_following": {
+      "questions": 40,
+      "mean": 0.99375
+    },
+    "summarization": {
+      "questions": 40,
+      "mean": 0.99375
+    },
+    "temporal_reasoning": {
+      "questions": 40,
+      "mean": 0.94375
+    }
+  },
+  "split": "100k",
+  "answers": "the reference system's published answers for 100k (not included in this repository)",
+  "repeat": 1,
+  "judgeModel": "gpt-5.6-luna",
+  "usage": {
+    "judge": {
+      "calls": 1050,
+      "prompt_tokens": 546712,
+      "completion_tokens": 42616
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "agent": {
+    "calls": 601,
+    "prompt_tokens": 9314059,
+    "completion_tokens": 92072
+  },
+  "judge": {
+    "calls": 1701,
+    "prompt_tokens": 403763,
+    "completion_tokens": 35943
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "dataset": "BEAM",
+  "split": "10m",
+  "datasetRevision": "9b2096193fe74e2837e4713e483351e19817773c",
+  "conversations": 10,
+  "questions": 200,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.8065396825396826,
+  "macroAverage": 0.8065396825396827,
+  "categories": {
+    "abstention": {
+      "questions": 20,
+      "mean": 0.8
+    },
+    "contradiction_resolution": {
+      "questions": 20,
+      "mean": 0.675
+    },
+    "event_ordering": {
+      "questions": 20,
+      "mean": 0.9976190476190476
+    },
+    "information_extraction": {
+      "questions": 20,
+      "mean": 0.6125
+    },
+    "instruction_following": {
+      "questions": 20,
+      "mean": 0.95
+    },
+    "knowledge_update": {
+      "questions": 20,
+      "mean": 0.875
+    },
+    "multi_session_reasoning": {
+      "questions": 20,
+      "mean": 0.315
+    },
+    "preference_following": {
+      "questions": 20,
+      "mean": 0.975
+    },
+    "summarization": {
+      "questions": 20,
+      "mean": 0.9652777777777779
+    },
+    "temporal_reasoning": {
+      "questions": 20,
+      "mean": 0.9
+    }
+  },
+  "system": "OpenCrawl self-hosted (opencrawl-core deploy/ stack)",
+  "retrieval": "search",
+  "prompt": "exabase",
+  "searchLimit": 40,
+  "evidenceTokens": 8000,
+  "maxSteps": null,
+  "order": "time",
+  "expand": 3,
+  "followUp": 3,
+  "pointInTime": true,
+  "fetchTop": 0,
+  "fetchChars": 3000,
+  "select": 0,
+  "selectOnly": false,
+  "pages": 1,
+  "memories": true,
+  "memoryFirst": false,
+  "memoryShare": 0.2,
+  "contextTokens": 10467,
+  "profile": false,
+  "curate": 0,
+  "curateFetch": 20,
+  "curateFill": false,
+  "ledger": false,
+  "state": false,
+  "deep": 12,
+  "userPass": 1.0,
+  "recent": 6,
+  "deepWhole": true,
+  "deepChars": 8000,
+  "ledgerKeys": 6,
+  "curatorModel": null,
+  "curatorReasoning": null,
+  "tag": "t35-recent-a",
+  "answerTemperature": null,
+  "answerModel": "gpt-5.6-luna",
+  "judgeModel": "gpt-5.6-luna",
+  "reasoningEffort": "none",
+  "prompts": {
+    "source": "https://fabric.so/p/beam-3VjBcqEVRofZyA5CeazeX",
+    "sha256": "584b672d957f3e6f75e96f881ec31da22e1039da1df5fbedb53dc6a9145cfc43"
+  },
+  "usage": {
+    "expand": {
+      "calls": 200,
+      "prompt_tokens": 24665,
+      "completion_tokens": 7653
+    },
+    "follow_up": {
+      "calls": 200,
+      "prompt_tokens": 458421,
+      "completion_tokens": 8176
+    },
+    "answer": {
+      "calls": 200,
+      "prompt_tokens": 2095417,
+      "completion_tokens": 50425
+    },
+    "judge": {
+      "calls": 622,
+      "prompt_tokens": 291062,
+      "completion_tokens": 22565
+    }
+  },
+  "harnessVersion": "opencrawl-1",
+  "finishedAt": "2026-11-10T05:46:36.787005Z",
+  "elapsed": "8m08s"
+}

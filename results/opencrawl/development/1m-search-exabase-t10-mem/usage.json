@@ -1,0 +1,22 @@
+{
+  "expand": {
+    "calls": 700,
+    "prompt_tokens": 84116,
+    "completion_tokens": 24233
+  },
+  "follow_up": {
+    "calls": 700,
+    "prompt_tokens": 1902831,
+    "completion_tokens": 30171
+  },
+  "answer": {
+    "calls": 700,
+    "prompt_tokens": 7138153,
+    "completion_tokens": 236401
+  },
+  "judge": {
+    "calls": 2414,
+    "prompt_tokens": 1689011,
+    "completion_tokens": 102407
+  }
+}

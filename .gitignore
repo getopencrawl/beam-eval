@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/
+harness/env.sh
+harness/logs/
+results/local/

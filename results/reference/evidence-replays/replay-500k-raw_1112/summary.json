@@ -1,0 +1,59 @@
+{
+  "questions": 700,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.8793033395176253,
+  "macroAverage": 0.8793033395176252,
+  "categories": {
+    "abstention": {
+      "questions": 70,
+      "mean": 0.9428571428571428
+    },
+    "contradiction_resolution": {
+      "questions": 70,
+      "mean": 0.7232142857142857
+    },
+    "event_ordering": {
+      "questions": 70,
+      "mean": 0.9933735312306742
+    },
+    "information_extraction": {
+      "questions": 70,
+      "mean": 0.8450255102040817
+    },
+    "instruction_following": {
+      "questions": 70,
+      "mean": 0.8982142857142857
+    },
+    "knowledge_update": {
+      "questions": 70,
+      "mean": 0.8333333333333334
+    },
+    "multi_session_reasoning": {
+      "questions": 70,
+      "mean": 0.6854761904761905
+    },
+    "preference_following": {
+      "questions": 70,
+      "mean": 0.9880952380952381
+    },
+    "summarization": {
+      "questions": 70,
+      "mean": 0.9566581632653061
+    },
+    "temporal_reasoning": {
+      "questions": 70,
+      "mean": 0.9267857142857143
+    }
+  },
+  "split": "500k",
+  "variant": "raw",
+  "repeat": 2,
+  "answerReasoning": "none",
+  "prompt": "exabase",
+  "answerModel": "gpt-5.6-luna",
+  "judgeModel": "gpt-5.6-luna",
+  "datasetRevision": "3205395e897e7318c7b094ef4e6047b9b82dbb03",
+  "finishedAt": "2026-11-12T09:36:24.574639Z",
+  "note": "usage was not recorded for this run: its summary was written afterwards from its records"
+}

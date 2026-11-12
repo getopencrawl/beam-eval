@@ -1,0 +1,65 @@
+{
+  "questions": 700,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.8775543186971759,
+  "macroAverage": 0.8775543186971758,
+  "categories": {
+    "abstention": {
+      "questions": 70,
+      "mean": 0.919047619047619
+    },
+    "contradiction_resolution": {
+      "questions": 70,
+      "mean": 0.6910714285714286
+    },
+    "event_ordering": {
+      "questions": 70,
+      "mean": 0.9917044595616024
+    },
+    "information_extraction": {
+      "questions": 70,
+      "mean": 0.8159920634920635
+    },
+    "instruction_following": {
+      "questions": 70,
+      "mean": 0.9478174603174604
+    },
+    "knowledge_update": {
+      "questions": 70,
+      "mean": 0.8333333333333334
+    },
+    "multi_session_reasoning": {
+      "questions": 70,
+      "mean": 0.6596428571428571
+    },
+    "preference_following": {
+      "questions": 70,
+      "mean": 0.9827380952380953
+    },
+    "summarization": {
+      "questions": 70,
+      "mean": 0.9841958702672989
+    },
+    "temporal_reasoning": {
+      "questions": 70,
+      "mean": 0.95
+    }
+  },
+  "split": "1m",
+  "variant": "raw",
+  "repeat": 3,
+  "answerReasoning": "none",
+  "usage": {
+    "answer": {
+      "calls": 2100,
+      "prompt_tokens": 24150000,
+      "completion_tokens": 632816
+    },
+    "judge": {
+      "calls": 7293,
+      "prompt_tokens": 4604090,
+      "completion_tokens": 300650
+    }
+  }
+}

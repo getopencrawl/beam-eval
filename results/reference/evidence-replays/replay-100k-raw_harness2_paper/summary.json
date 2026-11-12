@@ -1,0 +1,70 @@
+{
+  "questions": 400,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.5903119769119769,
+  "macroAverage": 0.5903119769119769,
+  "categories": {
+    "abstention": {
+      "questions": 40,
+      "mean": 0.65
+    },
+    "contradiction_resolution": {
+      "questions": 40,
+      "mean": 0.365625
+    },
+    "event_ordering": {
+      "questions": 40,
+      "mean": 0.5334769119769119
+    },
+    "information_extraction": {
+      "questions": 40,
+      "mean": 0.821875
+    },
+    "instruction_following": {
+      "questions": 40,
+      "mean": 0.575
+    },
+    "knowledge_update": {
+      "questions": 40,
+      "mean": 0.51875
+    },
+    "multi_session_reasoning": {
+      "questions": 40,
+      "mean": 0.5533333333333333
+    },
+    "preference_following": {
+      "questions": 40,
+      "mean": 0.83125
+    },
+    "summarization": {
+      "questions": 40,
+      "mean": 0.4413095238095238
+    },
+    "temporal_reasoning": {
+      "questions": 40,
+      "mean": 0.6125
+    }
+  },
+  "split": "100k",
+  "variant": "raw",
+  "repeat": 1,
+  "answerReasoning": "none",
+  "prompt": "paper",
+  "answerModel": "gpt-5.6-luna",
+  "judgeModel": "gpt-5.6-luna",
+  "datasetRevision": "3205395e897e7318c7b094ef4e6047b9b82dbb03",
+  "finishedAt": "2026-11-12T19:18:01.924524Z",
+  "usage": {
+    "answer": {
+      "calls": 400,
+      "prompt_tokens": 4439454,
+      "completion_tokens": 30752
+    },
+    "judge": {
+      "calls": 1406,
+      "prompt_tokens": 335518,
+      "completion_tokens": 44732
+    }
+  }
+}

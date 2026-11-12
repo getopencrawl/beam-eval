@@ -1,0 +1,81 @@
+{
+  "dataset": "BEAM",
+  "split": "10m",
+  "datasetRevision": "9b2096193fe74e2837e4713e483351e19817773c",
+  "conversations": 10,
+  "questions": 200,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.46795492744579315,
+  "macroAverage": 0.46795492744579315,
+  "categories": {
+    "abstention": {
+      "questions": 20,
+      "mean": 0.65
+    },
+    "contradiction_resolution": {
+      "questions": 20,
+      "mean": 0.275
+    },
+    "event_ordering": {
+      "questions": 20,
+      "mean": 0.46163260779126497
+    },
+    "information_extraction": {
+      "questions": 20,
+      "mean": 0.725
+    },
+    "instruction_following": {
+      "questions": 20,
+      "mean": 0.4625
+    },
+    "knowledge_update": {
+      "questions": 20,
+      "mean": 0.825
+    },
+    "multi_session_reasoning": {
+      "questions": 20,
+      "mean": 0.12416666666666668
+    },
+    "preference_following": {
+      "questions": 20,
+      "mean": 0.5541666666666667
+    },
+    "summarization": {
+      "questions": 20,
+      "mean": 0.4020833333333333
+    },
+    "temporal_reasoning": {
+      "questions": 20,
+      "mean": 0.2
+    }
+  },
+  "system": "OpenCrawl self-hosted (opencrawl-core deploy/ stack)",
+  "retrieval": "search",
+  "prompt": "paper",
+  "searchLimit": 40,
+  "evidenceTokens": 8000,
+  "maxSteps": null,
+  "answerModel": "gpt-5.6-luna",
+  "judgeModel": "gpt-5.6-luna",
+  "reasoningEffort": "none",
+  "prompts": {
+    "source": "https://fabric.so/p/beam-3VjBcqEVRofZyA5CeazeX",
+    "sha256": "584b672d957f3e6f75e96f881ec31da22e1039da1df5fbedb53dc6a9145cfc43"
+  },
+  "usage": {
+    "answer": {
+      "calls": 200,
+      "prompt_tokens": 1661553,
+      "completion_tokens": 12851
+    },
+    "judge": {
+      "calls": 1955,
+      "prompt_tokens": 268477,
+      "completion_tokens": 36449
+    }
+  },
+  "harnessVersion": "opencrawl-1",
+  "finishedAt": "2026-11-09T04:17:40.695355Z",
+  "elapsed": "4m34s"
+}

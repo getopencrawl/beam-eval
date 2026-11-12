@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" font-family="'Noto Sans', 'Liberation Sans', system-ui, sans-serif">
+<title id="t">OpenCrawl and the reference memory system on the BEAM benchmark, by conversation length</title>
+<desc id="d">Paired horizontal bars of BEAM scores out of 100 under the benchmark's own answer prompt. 100K tokens: OpenCrawl 63.05, reference 60.05, lead +3.00 (95% interval +0.36 to +5.64). 500K tokens: OpenCrawl 61.59, reference 60.44, lead +1.15 (95% interval -0.41 to +2.71). 1M tokens: OpenCrawl 62.33, reference 58.98, lead +3.36 (95% interval +1.38 to +5.33). 10M tokens: OpenCrawl 51.88, reference 47.02, lead +4.86 (95% interval -0.72 to +10.44). All lengths: OpenCrawl 61.17, reference 58.51, lead +2.66 (95% interval +1.55 to +3.78).</desc>
+<rect width="1600" height="900" fill="#fcfcfb"/>
+<text x="72" y="92" font-size="46" font-weight="700" fill="#0b0b0b">OpenCrawl and the reference system on BEAM</text>
+<text x="72" y="134" font-size="21" fill="#52514e">Long-term memory benchmark (ICLR 2026) · 2,000 questions · the benchmark’s own answer prompt · same answer model and judge for both</text>
+<rect x="72" y="163" width="30" height="16" rx="3" fill="#2a78d6"/><text x="114" y="178" font-size="23" fill="#52514e">OpenCrawl</text>
+<rect x="275.0" y="163" width="30" height="16" rx="3" fill="#898781"/><text x="317.0" y="178" font-size="23" fill="#52514e">Reference memory system (its published evidence, replayed)</text>
+<text x="1528" y="178" font-size="21" text-anchor="end" fill="#898781">OpenCrawl’s lead, points</text>
+<text x="1528" y="199" font-size="15" text-anchor="end" fill="#898781">lighter figure: the interval includes zero</text>
+<line x1="430.0" x2="430.0" y1="214" y2="756" stroke="#c3c2b7" stroke-width="1"/><text x="430.0" y="784" font-size="19" text-anchor="middle" fill="#898781">0</text>
+<line x1="658.6" x2="658.6" y1="214" y2="756" stroke="#e1e0d9" stroke-width="1"/><text x="658.6" y="784" font-size="19" text-anchor="middle" fill="#898781">20</text>
+<line x1="887.1" x2="887.1" y1="214" y2="756" stroke="#e1e0d9" stroke-width="1"/><text x="887.1" y="784" font-size="19" text-anchor="middle" fill="#898781">40</text>
+<line x1="1115.7" x2="1115.7" y1="214" y2="756" stroke="#e1e0d9" stroke-width="1"/><text x="1115.7" y="784" font-size="19" text-anchor="middle" fill="#898781">60</text>
+<text x="408.0" y="784" font-size="19" text-anchor="end" fill="#898781">Score out of 100</text>
+<text x="72" y="263.0" font-size="30" font-weight="700" fill="#0b0b0b">100K tokens</text><text x="72" y="292.0" font-size="19" fill="#898781">~290 messages · 400 questions</text>
+<path d="M430.0,239.0 H1146.6 Q1150.6,239.0 1150.6,243.0 V259.0 Q1150.6,263.0 1146.6,263.0 H430.0 Z" fill="#2a78d6"><title>100K tokens: OpenCrawl 63.05</title></path>
+<path d="M430.0,269.0 H1112.3 Q1116.3,269.0 1116.3,273.0 V289.0 Q1116.3,293.0 1112.3,293.0 H430.0 Z" fill="#898781"><title>100K tokens: Reference memory system 60.05</title></path>
+<text x="1162.6" y="259.0" font-size="25" font-weight="700" fill="#0b0b0b">63.05</text><text x="1128.3" y="289.0" font-size="25" fill="#52514e">60.05</text>
+<text x="1528" y="270.0" font-size="42" font-weight="700" text-anchor="end" fill="#0b0b0b">+3.00</text><text x="1528" y="298.0" font-size="18" text-anchor="end" fill="#898781">95% interval +0.36 to +5.64</text>
+<text x="72" y="367.0" font-size="30" font-weight="700" fill="#0b0b0b">500K tokens</text><text x="72" y="396.0" font-size="19" fill="#898781">~1,100 messages · 700 questions</text>
+<path d="M430.0,343.0 H1129.9 Q1133.9,343.0 1133.9,347.0 V363.0 Q1133.9,367.0 1129.9,367.0 H430.0 Z" fill="#2a78d6"><title>500K tokens: OpenCrawl 61.59</title></path>
+<path d="M430.0,373.0 H1116.7 Q1120.7,373.0 1120.7,377.0 V393.0 Q1120.7,397.0 1116.7,397.0 H430.0 Z" fill="#898781"><title>500K tokens: Reference memory system 60.44</title></path>
+<text x="1145.9" y="363.0" font-size="25" font-weight="700" fill="#0b0b0b">61.59</text><text x="1132.7" y="393.0" font-size="25" fill="#52514e">60.44</text>
+<text x="1528" y="374.0" font-size="42" font-weight="400" text-anchor="end" fill="#52514e">+1.15</text><text x="1528" y="402.0" font-size="18" text-anchor="end" fill="#898781">95% interval -0.41 to +2.71</text>
+<text x="72" y="471.0" font-size="30" font-weight="700" fill="#0b0b0b">1M tokens</text><text x="72" y="500.0" font-size="19" fill="#898781">~2,100 messages · 700 questions</text>
+<path d="M430.0,447.0 H1138.3 Q1142.3,447.0 1142.3,451.0 V467.0 Q1142.3,471.0 1138.3,471.0 H430.0 Z" fill="#2a78d6"><title>1M tokens: OpenCrawl 62.33</title></path>
+<path d="M430.0,477.0 H1100.1 Q1104.1,477.0 1104.1,481.0 V497.0 Q1104.1,501.0 1100.1,501.0 H430.0 Z" fill="#898781"><title>1M tokens: Reference memory system 58.98</title></path>
+<text x="1154.3" y="467.0" font-size="25" font-weight="700" fill="#0b0b0b">62.33</text><text x="1116.1" y="497.0" font-size="25" fill="#52514e">58.98</text>
+<text x="1528" y="478.0" font-size="42" font-weight="700" text-anchor="end" fill="#0b0b0b">+3.36</text><text x="1528" y="506.0" font-size="18" text-anchor="end" fill="#898781">95% interval +1.38 to +5.33</text>
+<text x="72" y="575.0" font-size="30" font-weight="700" fill="#0b0b0b">10M tokens</text><text x="72" y="604.0" font-size="19" fill="#898781">~21,000 messages · 200 questions</text>
+<path d="M430.0,551.0 H1018.9 Q1022.9,551.0 1022.9,555.0 V571.0 Q1022.9,575.0 1018.9,575.0 H430.0 Z" fill="#2a78d6"><title>10M tokens: OpenCrawl 51.88</title></path>
+<path d="M430.0,581.0 H963.4 Q967.4,581.0 967.4,585.0 V601.0 Q967.4,605.0 963.4,605.0 H430.0 Z" fill="#898781"><title>10M tokens: Reference memory system 47.02</title></path>
+<text x="1034.9" y="571.0" font-size="25" font-weight="700" fill="#0b0b0b">51.88</text><text x="979.4" y="601.0" font-size="25" fill="#52514e">47.02</text>
+<text x="1528" y="582.0" font-size="42" font-weight="400" text-anchor="end" fill="#52514e">+4.86</text><text x="1528" y="610.0" font-size="18" text-anchor="end" fill="#898781">95% interval -0.72 to +10.44</text>
+<line x1="72" x2="1528" y1="641.0" y2="641.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="72" y="701.0" font-size="30" font-weight="700" fill="#0b0b0b">All lengths</text><text x="72" y="730.0" font-size="19" fill="#898781">2,000 questions</text>
+<path d="M430.0,677.0 H1125.1 Q1129.1,677.0 1129.1,681.0 V697.0 Q1129.1,701.0 1125.1,701.0 H430.0 Z" fill="#2a78d6"><title>All lengths: OpenCrawl 61.17</title></path>
+<path d="M430.0,707.0 H1094.7 Q1098.7,707.0 1098.7,711.0 V727.0 Q1098.7,731.0 1094.7,731.0 H430.0 Z" fill="#898781"><title>All lengths: Reference memory system 58.51</title></path>
+<text x="1141.1" y="697.0" font-size="25" font-weight="700" fill="#0b0b0b">61.17</text><text x="1110.7" y="727.0" font-size="25" fill="#52514e">58.51</text>
+<text x="1528" y="708.0" font-size="42" font-weight="700" text-anchor="end" fill="#0b0b0b">+2.66</text><text x="1528" y="736.0" font-size="18" text-anchor="end" fill="#898781">95% interval +1.55 to +3.78</text>
+<text x="72" y="830" font-size="18" fill="#898781">Reference: the evidence a published memory system released for each question, replayed through the same answer model and the same judge.</text>
+<text x="72" y="857" font-size="18" fill="#898781">Answer model gpt-5.6-luna without reasoning, one call per question. Interval: 95% t interval over conversations. BEAM: Tavakoli et al., arXiv 2510.27246.</text>
+</svg>

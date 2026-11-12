@@ -1,0 +1,104 @@
+{
+  "dataset": "BEAM",
+  "split": "100k",
+  "datasetRevision": "3205395e897e7318c7b094ef4e6047b9b82dbb03",
+  "conversations": 20,
+  "questions": 400,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.6142031266646748,
+  "macroAverage": 0.6142031266646748,
+  "categories": {
+    "abstention": {
+      "questions": 40,
+      "mean": 0.7
+    },
+    "contradiction_resolution": {
+      "questions": 40,
+      "mean": 0.2875
+    },
+    "event_ordering": {
+      "questions": 40,
+      "mean": 0.5588913856943671
+    },
+    "information_extraction": {
+      "questions": 40,
+      "mean": 0.8614583333333334
+    },
+    "instruction_following": {
+      "questions": 40,
+      "mean": 0.6
+    },
+    "knowledge_update": {
+      "questions": 40,
+      "mean": 0.66875
+    },
+    "multi_session_reasoning": {
+      "questions": 40,
+      "mean": 0.5127083333333333
+    },
+    "preference_following": {
+      "questions": 40,
+      "mean": 0.88125
+    },
+    "summarization": {
+      "questions": 40,
+      "mean": 0.4777232142857143
+    },
+    "temporal_reasoning": {
+      "questions": 40,
+      "mean": 0.59375
+    }
+  },
+  "system": "OpenCrawl self-hosted (opencrawl-core deploy/ stack)",
+  "retrieval": "search",
+  "prompt": "paper",
+  "searchLimit": 40,
+  "evidenceTokens": 8000,
+  "maxSteps": null,
+  "order": "time",
+  "expand": 3,
+  "followUp": 3,
+  "pointInTime": true,
+  "fetchTop": 0,
+  "fetchChars": 3000,
+  "select": 0,
+  "selectOnly": false,
+  "pages": 1,
+  "memories": true,
+  "memoryFirst": false,
+  "profile": false,
+  "tag": "t13-notes2",
+  "answerModel": "gpt-5.6-luna",
+  "judgeModel": "gpt-5.6-luna",
+  "reasoningEffort": "none",
+  "prompts": {
+    "source": "https://fabric.so/p/beam-3VjBcqEVRofZyA5CeazeX",
+    "sha256": "584b672d957f3e6f75e96f881ec31da22e1039da1df5fbedb53dc6a9145cfc43"
+  },
+  "usage": {
+    "expand": {
+      "calls": 400,
+      "prompt_tokens": 47801,
+      "completion_tokens": 13185
+    },
+    "follow_up": {
+      "calls": 400,
+      "prompt_tokens": 1081456,
+      "completion_tokens": 16508
+    },
+    "answer": {
+      "calls": 400,
+      "prompt_tokens": 4043978,
+      "completion_tokens": 32958
+    },
+    "judge": {
+      "calls": 1354,
+      "prompt_tokens": 342016,
+      "completion_tokens": 44466
+    }
+  },
+  "harnessVersion": "opencrawl-1",
+  "finishedAt": "2026-11-09T10:57:41.821123Z",
+  "elapsed": "3m30s"
+}

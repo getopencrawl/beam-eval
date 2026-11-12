@@ -1,0 +1,66 @@
+{
+  "questions": 700,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.5978764573813465,
+  "macroAverage": 0.5978764573813466,
+  "categories": {
+    "abstention": {
+      "questions": 70,
+      "mean": 0.6642857142857143
+    },
+    "contradiction_resolution": {
+      "questions": 70,
+      "mean": 0.3107142857142857
+    },
+    "event_ordering": {
+      "questions": 70,
+      "mean": 0.539409286243893
+    },
+    "information_extraction": {
+      "questions": 70,
+      "mean": 0.7439243197278912
+    },
+    "instruction_following": {
+      "questions": 70,
+      "mean": 0.6172619047619048
+    },
+    "knowledge_update": {
+      "questions": 70,
+      "mean": 0.7821428571428571
+    },
+    "multi_session_reasoning": {
+      "questions": 70,
+      "mean": 0.5236139455782313
+    },
+    "preference_following": {
+      "questions": 70,
+      "mean": 0.7776785714285714
+    },
+    "summarization": {
+      "questions": 70,
+      "mean": 0.5060432127396414
+    },
+    "temporal_reasoning": {
+      "questions": 70,
+      "mean": 0.5136904761904763
+    }
+  },
+  "split": "1m",
+  "variant": "time",
+  "repeat": 2,
+  "answerReasoning": "none",
+  "prompt": "paper",
+  "usage": {
+    "answer": {
+      "calls": 1400,
+      "prompt_tokens": 16012404,
+      "completion_tokens": 156327
+    },
+    "judge": {
+      "calls": 8467,
+      "prompt_tokens": 2035237,
+      "completion_tokens": 232541
+    }
+  }
+}

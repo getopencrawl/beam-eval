@@ -1,0 +1,103 @@
+{
+  "dataset": "BEAM",
+  "split": "100k",
+  "datasetRevision": "3205395e897e7318c7b094ef4e6047b9b82dbb03",
+  "conversations": 20,
+  "questions": 400,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.9025639880952382,
+  "macroAverage": 0.9025639880952381,
+  "categories": {
+    "abstention": {
+      "questions": 40,
+      "mean": 0.95
+    },
+    "contradiction_resolution": {
+      "questions": 40,
+      "mean": 0.7
+    },
+    "event_ordering": {
+      "questions": 40,
+      "mean": 1.0
+    },
+    "information_extraction": {
+      "questions": 40,
+      "mean": 0.8817708333333334
+    },
+    "instruction_following": {
+      "questions": 40,
+      "mean": 0.9375
+    },
+    "knowledge_update": {
+      "questions": 40,
+      "mean": 0.86875
+    },
+    "multi_session_reasoning": {
+      "questions": 40,
+      "mean": 0.7297023809523809
+    },
+    "preference_following": {
+      "questions": 40,
+      "mean": 1.0
+    },
+    "summarization": {
+      "questions": 40,
+      "mean": 0.9954166666666667
+    },
+    "temporal_reasoning": {
+      "questions": 40,
+      "mean": 0.9625
+    }
+  },
+  "system": "OpenCrawl self-hosted (opencrawl-core deploy/ stack)",
+  "retrieval": "search",
+  "prompt": "exabase",
+  "searchLimit": 40,
+  "evidenceTokens": 8000,
+  "maxSteps": null,
+  "order": "time",
+  "expand": 3,
+  "followUp": 3,
+  "pointInTime": true,
+  "fetchTop": 0,
+  "fetchChars": 3000,
+  "select": 0,
+  "selectOnly": false,
+  "pages": 1,
+  "memories": true,
+  "memoryFirst": false,
+  "tag": "t14-solnotes",
+  "answerModel": "gpt-5.6-luna",
+  "judgeModel": "gpt-5.6-luna",
+  "reasoningEffort": "none",
+  "prompts": {
+    "source": "https://fabric.so/p/beam-3VjBcqEVRofZyA5CeazeX",
+    "sha256": "584b672d957f3e6f75e96f881ec31da22e1039da1df5fbedb53dc6a9145cfc43"
+  },
+  "usage": {
+    "expand": {
+      "calls": 400,
+      "prompt_tokens": 47801,
+      "completion_tokens": 13174
+    },
+    "follow_up": {
+      "calls": 400,
+      "prompt_tokens": 1083697,
+      "completion_tokens": 16570
+    },
+    "answer": {
+      "calls": 400,
+      "prompt_tokens": 4067596,
+      "completion_tokens": 107365
+    },
+    "judge": {
+      "calls": 1050,
+      "prompt_tokens": 585814,
+      "completion_tokens": 43064
+    }
+  },
+  "harnessVersion": "opencrawl-1",
+  "finishedAt": "2026-11-09T09:09:27.390283Z",
+  "elapsed": "4m19s"
+}

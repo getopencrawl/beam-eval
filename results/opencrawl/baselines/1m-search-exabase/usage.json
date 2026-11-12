@@ -1,0 +1,12 @@
+{
+  "answer": {
+    "calls": 700,
+    "prompt_tokens": 5750777,
+    "completion_tokens": 192103
+  },
+  "judge": {
+    "calls": 2430,
+    "prompt_tokens": 1443820,
+    "completion_tokens": 99763
+  }
+}

@@ -1,0 +1,7 @@
+# Benchmark-only override: give OpenSearch room for the 1M/10M splits and expose it on loopback
+# so retrieval prototypes can query it directly.
+services:
+  opensearch:
+    environment:
+      OPENSEARCH_JAVA_OPTS: -Xms6g -Xmx6g
+    ports: ["127.0.0.1:19200:9200"]

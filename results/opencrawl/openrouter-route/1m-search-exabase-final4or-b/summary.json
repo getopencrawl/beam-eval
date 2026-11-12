@@ -1,0 +1,132 @@
+{
+  "dataset": "BEAM",
+  "split": "1m",
+  "datasetRevision": "3205395e897e7318c7b094ef4e6047b9b82dbb03",
+  "conversations": 35,
+  "questions": 700,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.8926111111111111,
+  "macroAverage": 0.892611111111111,
+  "categories": {
+    "abstention": {
+      "questions": 70,
+      "mean": 0.9178571428571428
+    },
+    "contradiction_resolution": {
+      "questions": 70,
+      "mean": 0.7232142857142857
+    },
+    "event_ordering": {
+      "questions": 70,
+      "mean": 0.9935714285714285
+    },
+    "information_extraction": {
+      "questions": 70,
+      "mean": 0.810561224489796
+    },
+    "instruction_following": {
+      "questions": 70,
+      "mean": 0.9732142857142857
+    },
+    "knowledge_update": {
+      "questions": 70,
+      "mean": 0.8857142857142857
+    },
+    "multi_session_reasoning": {
+      "questions": 70,
+      "mean": 0.7059438775510204
+    },
+    "preference_following": {
+      "questions": 70,
+      "mean": 0.9726190476190476
+    },
+    "summarization": {
+      "questions": 70,
+      "mean": 0.98984410430839
+    },
+    "temporal_reasoning": {
+      "questions": 70,
+      "mean": 0.9535714285714286
+    }
+  },
+  "system": "OpenCrawl self-hosted (opencrawl-core deploy/ stack)",
+  "retrieval": "search",
+  "prompt": "exabase",
+  "searchLimit": 40,
+  "evidenceTokens": 8000,
+  "maxSteps": null,
+  "order": "time",
+  "expand": 3,
+  "followUp": 3,
+  "pointInTime": true,
+  "fetchTop": 0,
+  "fetchChars": 3000,
+  "select": 0,
+  "selectOnly": false,
+  "pages": 1,
+  "memories": true,
+  "memoryFirst": false,
+  "memoryShare": 0.2,
+  "dedupeNotes": false,
+  "contextTokens": 11339,
+  "profile": false,
+  "curate": 0,
+  "curateFetch": 20,
+  "curateFill": false,
+  "ledger": false,
+  "state": false,
+  "deep": 12,
+  "userPass": 1.0,
+  "collapse": false,
+  "facts": true,
+  "conflicts": true,
+  "conflictsShare": 0.03,
+  "factsShare": 0.0,
+  "cleanNotes": true,
+  "recent": 0,
+  "deepWhole": true,
+  "deepChars": 8000,
+  "ledgerKeys": 6,
+  "curatorModel": null,
+  "curatorReasoning": null,
+  "tag": "final4or-b",
+  "answerTemperature": null,
+  "answerReasoning": "none",
+  "answerModel": "gpt-5.6-luna",
+  "judgeModel": "gpt-5.6-luna",
+  "reasoningEffort": "none",
+  "prompts": {
+    "source": "https://fabric.so/p/beam-3VjBcqEVRofZyA5CeazeX",
+    "sha256": "584b672d957f3e6f75e96f881ec31da22e1039da1df5fbedb53dc6a9145cfc43"
+  },
+  "usage": {
+    "expand": {
+      "calls": 700,
+      "prompt_tokens": 84116,
+      "completion_tokens": 24470
+    },
+    "follow_up": {
+      "calls": 700,
+      "prompt_tokens": 1443294,
+      "completion_tokens": 28666
+    },
+    "answer": {
+      "calls": 700,
+      "prompt_tokens": 7917461,
+      "completion_tokens": 234220,
+      "openrouter_cost": 2.260337,
+      "openrouter_providers": {
+        "OpenAI": 700
+      }
+    },
+    "judge": {
+      "calls": 2426,
+      "prompt_tokens": 1665804,
+      "completion_tokens": 101910
+    }
+  },
+  "harnessVersion": "opencrawl-1",
+  "finishedAt": "2026-11-10T19:24:15.347325Z",
+  "elapsed": "44m57s"
+}

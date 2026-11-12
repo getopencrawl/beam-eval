@@ -1,0 +1,66 @@
+{
+  "questions": 700,
+  "failedQuestions": 0,
+  "failedVerdicts": 0,
+  "microAverage": 0.8778876606198035,
+  "macroAverage": 0.8778876606198034,
+  "categories": {
+    "abstention": {
+      "questions": 70,
+      "mean": 0.9166666666666667
+    },
+    "contradiction_resolution": {
+      "questions": 70,
+      "mean": 0.7011904761904763
+    },
+    "event_ordering": {
+      "questions": 70,
+      "mean": 0.9943915343915344
+    },
+    "information_extraction": {
+      "questions": 70,
+      "mean": 0.8018820861678004
+    },
+    "instruction_following": {
+      "questions": 70,
+      "mean": 0.9533730158730159
+    },
+    "knowledge_update": {
+      "questions": 70,
+      "mean": 0.8404761904761905
+    },
+    "multi_session_reasoning": {
+      "questions": 70,
+      "mean": 0.6929818594104309
+    },
+    "preference_following": {
+      "questions": 70,
+      "mean": 0.9644841269841269
+    },
+    "summarization": {
+      "questions": 70,
+      "mean": 0.97057350718065
+    },
+    "temporal_reasoning": {
+      "questions": 70,
+      "mean": 0.9428571428571428
+    }
+  },
+  "split": "1m",
+  "variant": "time",
+  "repeat": 3,
+  "answerReasoning": "none",
+  "prompt": "exabase",
+  "usage": {
+    "answer": {
+      "calls": 2100,
+      "prompt_tokens": 24150000,
+      "completion_tokens": 633396
+    },
+    "judge": {
+      "calls": 7274,
+      "prompt_tokens": 4594144,
+      "completion_tokens": 300854
+    }
+  }
+}

@@ -1,0 +1,4 @@
+httpx>=0.27
+datasets>=3.0
+scipy>=1.13
+tiktoken>=0.7

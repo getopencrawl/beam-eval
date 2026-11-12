@@ -1,0 +1,622 @@
+{
+ "100k": {
+  "revision": "3205395e897e7318c7b094ef4e6047b9b82dbb03",
+  "conversations": {
+   "1": {
+    "messages": 188,
+    "turns": "10d32e83e0101e989211b3b349414ef3a8b692698cb13fae69a346349e242134",
+    "questions": 20,
+    "asked": "ea6254f2084bd29db7eae9917dd2ff2f146a86389cec76e09eb91d3308d1994f"
+   },
+   "2": {
+    "messages": 200,
+    "turns": "4daa6ddc83bb21bcf02bb8a4944f2421788a23e152f024674d3a8c6d64864948",
+    "questions": 20,
+    "asked": "969317746f9b8ce3b96607cec15525f21acd4f1d8cc9db661eb6c491afa44488"
+   },
+   "3": {
+    "messages": 194,
+    "turns": "4cfd1d960f1a4f417b59b5b07b5f756dc87e118471e2c11694f7901a033616d5",
+    "questions": 20,
+    "asked": "705d0d5836971564d7efeeba8f024221da7f5b66b90b8fe9f6e142b65b2dfd21"
+   },
+   "4": {
+    "messages": 212,
+    "turns": "13d8663bd58f0e0b6a770487db880b8de795a9a18d35a4fbc44226f6387414cb",
+    "questions": 20,
+    "asked": "44062f640bca44031dfc58654dca86a11cec3f2e4f822dab469d5d51a6227639"
+   },
+   "5": {
+    "messages": 238,
+    "turns": "8758f26e6bf46cdf82213cc16d4085942643808523220e3a9d4f657199bec968",
+    "questions": 20,
+    "asked": "0ca6d80911ee70dedc7b4062eea2f6a2773e69b4a55bacaf362429354a20d270"
+   },
+   "6": {
+    "messages": 258,
+    "turns": "1951dd0028c5e4b6ad90b94e7765aee3f80616902c28d84f472739483ff414bf",
+    "questions": 20,
+    "asked": "41e9ec792477dec88a6dd0ae56a716abfa9877e51f43dc63105ce891becf2aae"
+   },
+   "7": {
+    "messages": 260,
+    "turns": "85251168521fe5642fbf86d62289664d2700db725881258504bec5bd2f7e7627",
+    "questions": 20,
+    "asked": "bb8724cda0dc4d2f69c9b960344abe7ba91cf4914c429ccd5ff996d9be51c511"
+   },
+   "8": {
+    "messages": 268,
+    "turns": "cd1f7b9ffcbc0064d3db1767242cc7d227d2f759d2cc1a84a8cf0f12a748d662",
+    "questions": 20,
+    "asked": "5f7d0418419167fceb057dbe0527a4045a7fa13f6c01cb30c4a1a441ab124ac9"
+   },
+   "9": {
+    "messages": 270,
+    "turns": "b20e7fcbc1d3fa094fe63c5c402fdf90041e9fe5fb0c2bcb322653661d7fc828",
+    "questions": 20,
+    "asked": "37d09833227592e86fc745dc4da6542bf6e6da7013b69b192cad0409fc024204"
+   },
+   "10": {
+    "messages": 344,
+    "turns": "0908a89c7ab35787e024cd16c5a2c331142362934ae47c61860536918d38119f",
+    "questions": 20,
+    "asked": "c5d40aa121e736983a27bb89fa4e75b5972e51c9fce1e8ff69cc73c548a91310"
+   },
+   "11": {
+    "messages": 388,
+    "turns": "271a4b46e9df09461a5bf3af1b1d79a5d5ae0fa16d94e84262d3a1a793fc0a7c",
+    "questions": 20,
+    "asked": "e6413a921fc22282e0214bb16945bb564620cf0845f3eafb0b058d2faf124ac6"
+   },
+   "12": {
+    "messages": 392,
+    "turns": "31c8aadfefb916e9ed9a8e981c0f4fd61f67ddb10512ab17bdb70cee3cdf076f",
+    "questions": 20,
+    "asked": "db108dcd288809f2771d2262703e37ecc7fe3f8ca21f70ecaa82feceba0505aa"
+   },
+   "13": {
+    "messages": 310,
+    "turns": "06c0881cafdfd0d8d366fb5a4265888fa4e218d752f440e8e2078c85cd56410e",
+    "questions": 20,
+    "asked": "600e30393c163322567236e7c9a1b12808e041ba00e993f98d8fbd4fdc2e476f"
+   },
+   "14": {
+    "messages": 268,
+    "turns": "25aef1b53401740958ad84596bb5ac38c8a0bdcacbffa6cdd786e18503bc6701",
+    "questions": 20,
+    "asked": "2cd165a0d570971cf0f3892277fbdc79639ae29c626ce1d28cdc995c2aa15a39"
+   },
+   "15": {
+    "messages": 272,
+    "turns": "86cfc21e90213a54d88e8fd35f84f200a09be0c0cf9d939df60be1376575f193",
+    "questions": 20,
+    "asked": "d39ac2209e789c98b104c912b781dc169c1941e428087b67706e138f224ba289"
+   },
+   "16": {
+    "messages": 322,
+    "turns": "0bed1a5eccf6041019936ecadf44824307d4fd4b5a8498c93c164115ddf74d58",
+    "questions": 20,
+    "asked": "21de34e70964b88069281775ceb6bae49b356dda9b93f261ce350007777cbbaa"
+   },
+   "17": {
+    "messages": 286,
+    "turns": "a1d89a564eb46c23f6fd839095512ec4550e7411b334d6b9344e216da0a71e01",
+    "questions": 20,
+    "asked": "0e999a2b74f079152b26daa808dda5be092629f9ed38a2be5909d030ed4d6352"
+   },
+   "18": {
+    "messages": 362,
+    "turns": "8567382ba219ff9c992d0d50e7fb88ee265789e848a3b907e9002048b807ed33",
+    "questions": 20,
+    "asked": "506cd26137abca404db0265dd22e9b2f3c298acad1734cd79356e507b4a73ed8"
+   },
+   "19": {
+    "messages": 328,
+    "turns": "da2c9328bd47407b800b5799672881847b5e23f5bd4dd9b4199940a7324c3aad",
+    "questions": 20,
+    "asked": "9a2623a54b3c2763ee84a2a9554ae0e4a0597e8ea1ac457991ce4519855361b4"
+   },
+   "20": {
+    "messages": 372,
+    "turns": "ac8ec1879952e16772382d74265d1c212469765d752b5f52ab841193baf94389",
+    "questions": 20,
+    "asked": "b3e8a6261d33f1517e615a95b26a896c010210589331f817790144a772825377"
+   }
+  }
+ },
+ "500k": {
+  "revision": "3205395e897e7318c7b094ef4e6047b9b82dbb03",
+  "conversations": {
+   "1": {
+    "messages": 796,
+    "turns": "0dc7704d4144976e25950476261d8d9ba42c2d9a36bfc4a0e84ddf41672d0cb0",
+    "questions": 20,
+    "asked": "e1dce219b0eba0ee98d3fe87544c7f21ffe92dccb469cb7039897188be1bd75e"
+   },
+   "2": {
+    "messages": 880,
+    "turns": "2c3f6b6e00f6acd252c4b70a3912f5bc342311d35a68d65bd62c121af8d59d28",
+    "questions": 20,
+    "asked": "ff5a21227ef43a4f3bce10a9d7c2cbc564d69ff63a6057f5082168a5c00ae7d6"
+   },
+   "3": {
+    "messages": 772,
+    "turns": "eb06dc216c7ef33beea21f8418f7acc4e2fafab04fb456bdf8b254ecdc26f2f7",
+    "questions": 20,
+    "asked": "f9adad8d50f823200c2328b790acd3df56d4146c09b32868c8a33f20bc360820"
+   },
+   "4": {
+    "messages": 836,
+    "turns": "73bdc560969815b00f36ce3f924316e79a6a9c1aa838773417906b78a97e2564",
+    "questions": 20,
+    "asked": "9215ae64435e9d8389655caa103bcc30b526ee13663a76973e0c269cf34c32ac"
+   },
+   "5": {
+    "messages": 884,
+    "turns": "6968096f5c8b1ce1987ca2aaa39a320e312b349fca967dd4d2ccad65b8a8c25b",
+    "questions": 20,
+    "asked": "18952e1c315942d2580731dc7df0cf7e5db9eeb9977e572c58b6124ebb22e8ee"
+   },
+   "6": {
+    "messages": 1024,
+    "turns": "7e753610e14fe1ae8d2304ec9d512c034b686e2f2755f63f07382f2030b33d96",
+    "questions": 20,
+    "asked": "43dcb3d423343bd1884c517c0c7ffd7c11e857732966f6ade7dc248174415155"
+   },
+   "7": {
+    "messages": 1364,
+    "turns": "a5480fe796ed7162a8a770cbca03c4e0708628aebf6e480268c26f1d3a2066db",
+    "questions": 20,
+    "asked": "03e2705f527a47b12f23a3bbc985290e50a743ff0aef204c5fe4f68c64e6f537"
+   },
+   "8": {
+    "messages": 1246,
+    "turns": "a4342b1c745c34d66fde215e559e9bd05ebf416e1a98974ca13ae133f4cb6f37",
+    "questions": 20,
+    "asked": "5cd585fb83da14fa119ac22651a77f889213f7bcce0cf77c2e4036fd8ef488aa"
+   },
+   "9": {
+    "messages": 1030,
+    "turns": "b86bd245e0306e82752041255afffb21a0dc2e83b51e1c6b07ad648b92fb13c3",
+    "questions": 20,
+    "asked": "3b6a846cfd0981af17e47df15eccb85a71add7fcbc5cc9b13a1bb66a21a7f97c"
+   },
+   "10": {
+    "messages": 1248,
+    "turns": "6604dbae52a536f2862752a5a32c6364838b7502e31b9ba61fc0eaa91b981c30",
+    "questions": 20,
+    "asked": "81edda6082c1c405d373fbc4a2a638f98f7dc58025496520c4ba8b1b2d369ae6"
+   },
+   "11": {
+    "messages": 1090,
+    "turns": "e0995da4f0ed4944ae28736e45a1ca96b0dbdb27647a0641958c269468fe42fa",
+    "questions": 20,
+    "asked": "73e1bc171ac1676e67c1930f3914b5598562a8191059c0031b38d41561c8907a"
+   },
+   "12": {
+    "messages": 1120,
+    "turns": "cf8b6126c80d93e2c0a3c178f1b624a50ceaef63c9bd115580d5faee2f24dcdc",
+    "questions": 20,
+    "asked": "d6eaf294f2cb9071fef77966cb419161cbc1fb5b1f1ac4c34ddc025b6520f260"
+   },
+   "13": {
+    "messages": 1234,
+    "turns": "672da9a1c921d0b069a66c63c3656b06f5725dd644e86cbe2aade318652ce6ea",
+    "questions": 20,
+    "asked": "cb23ea1188a976535735fdc511abc3d5a88c7f15cb35b0c5fd9e0fa22ab4c3e5"
+   },
+   "14": {
+    "messages": 1274,
+    "turns": "5e9d95478cbea19041203a1f1b4497f976bbd532ee45d60b2af503e1d38895d0",
+    "questions": 20,
+    "asked": "53a98e690bc599cfab2bc93b3c194337ede17bc93f8910f0b0601b361caa2a12"
+   },
+   "15": {
+    "messages": 1122,
+    "turns": "0ddc1a7cb30cab8054ef28d04216db92f71ff9ade29a412de64a501a970440f2",
+    "questions": 20,
+    "asked": "d24c10d7051b6577a5db2870313c62b873820806f11b69461582cdfb90ccae3d"
+   },
+   "16": {
+    "messages": 1056,
+    "turns": "ff0e6aa11121e4a9965b107b034204cfed88fdea061475a2c391f30eff7509a8",
+    "questions": 20,
+    "asked": "358d95467fd881ddc0ba7ade5ed1ac503b790e6c186f8365630ab145cddc9f2e"
+   },
+   "17": {
+    "messages": 1226,
+    "turns": "67ec99d14557a37e0d01b1e3cd0b4fa61c738f4bc56ec60c68a64bd7264c1f35",
+    "questions": 20,
+    "asked": "184ad16f4c6124a202602a2b9b19b653532156d9697152d4a028d0679ed0dfa8"
+   },
+   "18": {
+    "messages": 1076,
+    "turns": "00f5bbd828a0c4e226542163af5241b52bb9277396e01dad809206572a45b9c2",
+    "questions": 20,
+    "asked": "bb4245c7fe0fd4935617f3a42c898fbe3f5af932a7b78a4d2ccdd859df68b82d"
+   },
+   "19": {
+    "messages": 1180,
+    "turns": "7e93f17be8713eaec87f592df8110cd2f83f97863e4ed7458c14f7dcc02828a5",
+    "questions": 20,
+    "asked": "4dd5774e8b56430070338300f0e92522831803af9d717150b6fb0c94478dd1d9"
+   },
+   "20": {
+    "messages": 1034,
+    "turns": "7e0d0aa353cae4c1448576906baed318594ae528067037ab933aa3e39ba951d6",
+    "questions": 20,
+    "asked": "292e77ec2e9e4c6ed16abacde35106312a975b8b84406f0932ce4882b565ed90"
+   },
+   "21": {
+    "messages": 1208,
+    "turns": "ce12f0faf598e8af1ed5d8392632a3d320edf551a99659f47e2059994670cd5a",
+    "questions": 20,
+    "asked": "e985f220008fc78bd9d4a336aac910133c3302d7eac98fab11b5b40d26ed8ed8"
+   },
+   "22": {
+    "messages": 1296,
+    "turns": "a159e7fd123aef6b62d13f700bc047b1d001287d975a9714b6b33d5082beac0b",
+    "questions": 20,
+    "asked": "f598b839fc3b081eddee735890fdf262aaf3b7c954480b92ed48cf33446a9bc0"
+   },
+   "23": {
+    "messages": 1088,
+    "turns": "e10ac335c7a4fb73c8bc1c6853e5672cb044d346dfd500b9eb2bd87a585dbf0b",
+    "questions": 20,
+    "asked": "eb001678f35e995b6c98aa7c05eb12b3ca74e73b69dd8ef3a8aa50e4279a1389"
+   },
+   "24": {
+    "messages": 1018,
+    "turns": "d37e96e76786c08dec0c0875831015c312e807e25b5d7511b1bcabc6a2c97417",
+    "questions": 20,
+    "asked": "e73d2886ae0a57bbd5a0fb831f5687d8d03b2f6ac2961a8201dd9ddb5c16e10a"
+   },
+   "25": {
+    "messages": 1122,
+    "turns": "8d42858bb4ed50b1343e6c661ef21c2dee4e5e4f195cc327781cafa7f98aeda9",
+    "questions": 20,
+    "asked": "d06c19350369a2ed3df2fbef2a015232c51c15c12e5fa44c9e213d996d04a468"
+   },
+   "26": {
+    "messages": 1066,
+    "turns": "bc94813b651e9accbd3890dcaefed52c2f20391957b07de535f69a1c08b1977a",
+    "questions": 20,
+    "asked": "139ed902582e15c605f7ed8660260f43f1856058b663bb7b7cf9238117eaa706"
+   },
+   "27": {
+    "messages": 1190,
+    "turns": "8b81c16bab70379f5aa5d04151f5bd4e172ce3a45d10b308968740476c1a33ac",
+    "questions": 20,
+    "asked": "1c002ee602bd9a7b52945d7e238faaf6d7c66237d62fcdd06d14e03a1249f239"
+   },
+   "28": {
+    "messages": 942,
+    "turns": "71b8a4842d1f39c20645aeb931c734a4351084795ba86b6c9c84e87a0330a0fb",
+    "questions": 20,
+    "asked": "4eea69f79630a31c7071179017ec120d2c190fabacfb23a133eb7d69544b2553"
+   },
+   "29": {
+    "messages": 910,
+    "turns": "6a7bc4bb3df1972d42cf933cfc60c744593d23ed368fed2652a9ce1196e6738f",
+    "questions": 20,
+    "asked": "51f0f701d6d520535dca8b5e44e031f23d7171ac6adfc648e9662c35fd84195e"
+   },
+   "30": {
+    "messages": 1060,
+    "turns": "29535de8086cc6fbe8e215c2d6245f0d549c718ebf9fca358f80b56f88976f04",
+    "questions": 20,
+    "asked": "ae0b36b642ebe06e20d274c623e404d97c65e24713e8d6efb03f572670a41cff"
+   },
+   "31": {
+    "messages": 1072,
+    "turns": "d198cf30dc257b0dd3814fe374c7ff5686e068536d9b635bbb5c992812fc408d",
+    "questions": 20,
+    "asked": "6226b7086f45d13184349db3e5711e9269eac51703b77162247ae05ee9cd7f76"
+   },
+   "32": {
+    "messages": 1424,
+    "turns": "b58f8e5b359228a313b771e871d4443df4c17ea1df8910043ae6a5b5ad5c1f53",
+    "questions": 20,
+    "asked": "4e89cee9ad312db6c2fc038050424f9564b1cff7de31de2f952ae7e3a81ccc01"
+   },
+   "33": {
+    "messages": 986,
+    "turns": "12b869809aea70b6381e7ca41604a4f74894e09ea45a4bc64ac74213d86463a2",
+    "questions": 20,
+    "asked": "8e67af69edc82c1c98ee4893798f2e279da9ff0a91e8b0b8510c2a8d2395a041"
+   },
+   "34": {
+    "messages": 1182,
+    "turns": "f5879932f559944ce4d054085dbb0f1420b51ab4db74190076f7fb4416c9c2c3",
+    "questions": 20,
+    "asked": "ae40e8a007042e6badef5a59579a495e5be9f92716abef912b2b99f725cc2d7d"
+   },
+   "35": {
+    "messages": 1002,
+    "turns": "d95b8cecf2ff16a601c11c6334c1776c89d74ca56bc44168b681ad99d70853c6",
+    "questions": 20,
+    "asked": "9521d78fc97f47dd332bc9c18f4c0379d8aecb393914c1c968485f78224a4e47"
+   }
+  }
+ },
+ "1m": {
+  "revision": "3205395e897e7318c7b094ef4e6047b9b82dbb03",
+  "conversations": {
+   "1": {
+    "messages": 1710,
+    "turns": "3bb3cbf43577ea4fc78aac980e453fb06d0f151b6cdaea1caa02a3bf01a0248d",
+    "questions": 20,
+    "asked": "c3e72d90cb1275a59bdc1a1e8c9b2e42386d702d797a8550b04d8f517d58219f"
+   },
+   "2": {
+    "messages": 1780,
+    "turns": "4937be1266bdb9058e486f1e31573d483c4758734f13a44fa2e7dbbc9636639c",
+    "questions": 20,
+    "asked": "9bd848ac8429b6151a2b3f16c16e7186dab6498e71b32977845b82ed3baac5cf"
+   },
+   "3": {
+    "messages": 1556,
+    "turns": "0d8c52ac7d3696736228c25f99f3820e00faeb13c49404934331dba4ed18fbc2",
+    "questions": 20,
+    "asked": "6f8f53e8a72fd4fd775b5aed281fc448d3204756ec5123c2b79935edbbfc5186"
+   },
+   "4": {
+    "messages": 1600,
+    "turns": "6d3e9563a997e3742aead2451749c40f31c5cb8e18e52c5c00b725a6a5a75810",
+    "questions": 20,
+    "asked": "cf0aa280dcaa873e408f0f79585635be0363034ccfaead08c22ce0d4a3157e63"
+   },
+   "5": {
+    "messages": 1750,
+    "turns": "1723f5a0a0388b76411e18ea822d5bfee48c43e5290083cdd813252634fbf089",
+    "questions": 20,
+    "asked": "c6c85acd166e1300f37546975604a00c7b305ed4cc3cc0132752cd679dd66ef0"
+   },
+   "6": {
+    "messages": 1772,
+    "turns": "ed6f361e2ae38888a5367d9583b7d0603f1d121c1efff0936bf7786f24642a06",
+    "questions": 20,
+    "asked": "4dc336bbcd820dd689a3a3c0094c3362c16d8271a1e45ba01aff8fe9425c7b02"
+   },
+   "7": {
+    "messages": 1662,
+    "turns": "ddc8c944795bfff587df4b210a308b276e30b3464a0a4623fd4f4d4cdeb70613",
+    "questions": 20,
+    "asked": "5d55b2c84750cfaee6817a685939a3f1883d82807a39ed23cf5bf732f0fc5b65"
+   },
+   "8": {
+    "messages": 1764,
+    "turns": "7a1b94b955f7e4e222fe1a2eb71b8cd7a1c73142cf03eb9e6a06b9604f231c8b",
+    "questions": 20,
+    "asked": "b8d4d47906e09c198c3c75764fdb4094ee432b512e12ec4c36019a92626c1185"
+   },
+   "9": {
+    "messages": 1802,
+    "turns": "03bc2af1be7d01e1a66b6c19ab45fc1712289097ed0cebd2bea799f89dd6b088",
+    "questions": 20,
+    "asked": "1e0256c909d450b6fd8138109c44467b478fe462dced445ae0b1f66115b7e936"
+   },
+   "10": {
+    "messages": 1776,
+    "turns": "461371c08676d9022aaf98df82dd4e8b6a89b23d2263657df904665c058159d8",
+    "questions": 20,
+    "asked": "b9b1d1e987b12aeff514ff69fe4fb10829aef59f1873af88acb4692ff4dada68"
+   },
+   "11": {
+    "messages": 2294,
+    "turns": "cf1d1ed2740c2c9daabe2ac12b6f5583d6e8e0e3f82b0260d0bdd55775350761",
+    "questions": 20,
+    "asked": "e7342afc4ae8a04e7ecc1105134a909d40c3edee689800a991af4bc22533539d"
+   },
+   "12": {
+    "messages": 2214,
+    "turns": "f62bd983c049a5e40679d6a57ff55ebbd24ca003016049ca4c8aa5a307967b35",
+    "questions": 20,
+    "asked": "08dbe09fd0f818024b184bf001d798099f6ff0fe9d67d1c7f5f2072d0e2cf7e6"
+   },
+   "13": {
+    "messages": 2988,
+    "turns": "4b4303fb8db483d988708a3e5536483f479195f21534963ef405e710e6f5bfbd",
+    "questions": 20,
+    "asked": "0e625f45ec329ba98155b9c07b66ac355d7d26b134f7ae43f4da7a341ff6b513"
+   },
+   "14": {
+    "messages": 2694,
+    "turns": "ce50d0ddbf4c09966888e343b40ff4d805fe829cb1ba3311b170af4e9f38864c",
+    "questions": 20,
+    "asked": "bca396735f1c83ae9f4b41a49cfec8d5fd29bbfe1756fcefa72eceb0aba6f7c4"
+   },
+   "15": {
+    "messages": 1936,
+    "turns": "52c01fc12974272b07bc4000f928db7ad41541aa554311d3c7282151c633ece3",
+    "questions": 20,
+    "asked": "2d3a0be6a5d2d062c60e1adbcc5c702f03f3315a54f6f5e1784961b599444473"
+   },
+   "16": {
+    "messages": 2182,
+    "turns": "a0173012cd32cb5e9687bb4fceb771dfba9b67905bff45dfaf576a88e92742fb",
+    "questions": 20,
+    "asked": "63d54bee9adc7671db6101f8e0e7ad0f6fb175ed387391a8f4e41d36a762a413"
+   },
+   "17": {
+    "messages": 1966,
+    "turns": "ba1a6e898bc77da826bc2527d16aaafd5dbd37c3ed15e2d84168c91613b34cbc",
+    "questions": 20,
+    "asked": "d3f8d93de48eb97a66b607714a3b9c38ec68ffc8531b5f63190346b0a0535cd1"
+   },
+   "18": {
+    "messages": 2612,
+    "turns": "69a603c31ced9d99369d7ecba64fcf140923a942df1a1654ed35b3c8606a1f1e",
+    "questions": 20,
+    "asked": "865041cc177236160354fd3c079bcf5cc0469162ddeeb4f1bc88d8453f0fc504"
+   },
+   "19": {
+    "messages": 1970,
+    "turns": "c300827b6d5f602d0725558202afc9cd6de344499fe8f2f1a3b4714a04a2b54e",
+    "questions": 20,
+    "asked": "08c282a2b91fa9e16b99c79f7a6f72191ee8dd0032ecff942b8b75b8ed4fa708"
+   },
+   "20": {
+    "messages": 2410,
+    "turns": "0c140b58202c4a39320459ada4ecb81e4634220eee22ee717b3b7860f7de28cc",
+    "questions": 20,
+    "asked": "1b67d403ef6954dcef2d50810ef1ba949f3b54b34b2ef7ae4284868f68225339"
+   },
+   "21": {
+    "messages": 2334,
+    "turns": "7da92f512690d1d5264a66c69aaa3e3dafca83880179ceed90f4f16580939127",
+    "questions": 20,
+    "asked": "682fda297a93383bdb25e554f9b6f098afc27bcbb6f2ad1d376114525303d28f"
+   },
+   "22": {
+    "messages": 2202,
+    "turns": "2ddad3222970057b8618eee3a38da4667fc8f6e0a21c7d94a283024a7155a1ea",
+    "questions": 20,
+    "asked": "e705194e52b7fe6f56c4b63a5f09fe3b2629e583ab9eebaf38f6d4e757f265d4"
+   },
+   "23": {
+    "messages": 2016,
+    "turns": "8be04ec173f00f4d5edf2ec4eebfa34753e93d7a68027a400474c686338327ba",
+    "questions": 20,
+    "asked": "199afbb79e72058bcf3926ee1b4fa055162f0b1b9805e1da0166333ec7ade41a"
+   },
+   "24": {
+    "messages": 1894,
+    "turns": "db22052037692ab86597fc35956caeaf0e08bf822996199c001bb2daf30cb680",
+    "questions": 20,
+    "asked": "90203570a16609a6032cafe4a86a1ab850730a1fa8dc80c733c16f0599bbf95f"
+   },
+   "25": {
+    "messages": 3008,
+    "turns": "02718afd79e467adeadb4d5a1a79da8b081c3ceb5ce51e5e8338b26e03a71de7",
+    "questions": 20,
+    "asked": "91a35cde1ae7bad08dd02a0c5787adc170eea3b59ace2ffbe5b5407e1d5661f2"
+   },
+   "26": {
+    "messages": 2418,
+    "turns": "5791b44cd109d96fac63cc18c8266979b54f84dff8c0896257412b58485a4d55",
+    "questions": 20,
+    "asked": "9d19760a759271c17eb4460dcdcdceed9f5f87ff3c5688d47b3456228f4e9eec"
+   },
+   "27": {
+    "messages": 2210,
+    "turns": "1f31885050299ec7bce40ebb4a72c7a52f4322a85d69648d6f311d8630500432",
+    "questions": 20,
+    "asked": "ec30b552fc8f6d1744ac567b9a00c4d7fe50cf222b088f8d175c2c0b34bb21ee"
+   },
+   "28": {
+    "messages": 2356,
+    "turns": "9e9844114cc6c7b1c28867a8afc68a458803c7b337301a86706088712490eece",
+    "questions": 20,
+    "asked": "c1a6010295d04874e8b288f0dc53af167cfd143b795b05f38ac4363b268c5f4c"
+   },
+   "29": {
+    "messages": 2026,
+    "turns": "12540141c1df2ff12dd9987c6417f779fb157537ae200665e254487cc5d36630",
+    "questions": 20,
+    "asked": "024ab7f65649f93f21687844b069d374e7b5190776c95fd83423ea9269531f1c"
+   },
+   "30": {
+    "messages": 2356,
+    "turns": "2449299c12836d2bfb9341e69151d20eafe1d1bd8f671f6cf131a255383d83cc",
+    "questions": 20,
+    "asked": "307f3711cd51b4719924f072e6456f2df85c316012e4ebfb9d8b8e92da27749e"
+   },
+   "31": {
+    "messages": 1982,
+    "turns": "59f3c893c7026439fd46c007ac81974803623b37129353b4a3fbba4a1ed76fac",
+    "questions": 20,
+    "asked": "3694a225c7c8e3fc27459d6842fb549ebf5c3621e29324f683b2edd065dd13c1"
+   },
+   "32": {
+    "messages": 2088,
+    "turns": "92d02ffab48b4cc8b3d6723d3aec3c1f9a8272ffe99e30c7cb225c18ce2300e1",
+    "questions": 20,
+    "asked": "3bce7f16a4e5c0a53ab793255e6e9a5865cd8e95c6214bbbf3ec2f3fd9781639"
+   },
+   "33": {
+    "messages": 2312,
+    "turns": "f6aad10332216c584e8bb2b98c40d4c8ccbcb365b0e4d26473d6a016bf308bbe",
+    "questions": 20,
+    "asked": "deeda657f2bcffd1bf80f363a50bdff6a11c360456d5a02875fc7126fb1a4e2d"
+   },
+   "34": {
+    "messages": 2874,
+    "turns": "a31a500194837595603839168e18357004bad663c3673033e9c7da94125ccf09",
+    "questions": 20,
+    "asked": "3b75be56dd7a76572a20442115be94ea66bac63aac5e7ecff19912599db4afb1"
+   },
+   "35": {
+    "messages": 2116,
+    "turns": "7d221f005a8ccc348e6fa2199f333562e22b62feabe200b572409babe53095ff",
+    "questions": 20,
+    "asked": "0116ef329a625378f1021f24dccd2d47a220ad4a09735a9a72ce0f195ecafbd9"
+   }
+  }
+ },
+ "10m": {
+  "revision": "9b2096193fe74e2837e4713e483351e19817773c",
+  "conversations": {
+   "1": {
+    "messages": 19895,
+    "turns": "a80f4b2b5b20ac51f947d325aed688e64f1b04008e1e93cb8e5a4e7f33e3f6ea",
+    "questions": 20,
+    "asked": "a40bd63f274f75c3dc3bf7b6aee4becbead814b3fab85f6e65842186e1c5f047"
+   },
+   "2": {
+    "messages": 19057,
+    "turns": "cd7fbfe29edf77e199bf8cbd42526e9752aa4c0b86af4cb18fa4d0fe01c01129",
+    "questions": 20,
+    "asked": "6b9d53a7dd607c5333063d32595aa1ebc43db66d54396b1272fe1d951c2ffeb8"
+   },
+   "3": {
+    "messages": 20192,
+    "turns": "6703f1473e11b5dc1075534a0d78e9142d2f07326055a6bb0f5d128f73ad1e79",
+    "questions": 20,
+    "asked": "8bd3c1f4021d8bf7f0f0d741fd672dbe9bd1eb35a4a294fa39004ddbdcb705e7"
+   },
+   "4": {
+    "messages": 19202,
+    "turns": "7d18746fdbe8ae519c640219d92d881ccf3146c36257312016be9815d08b31b0",
+    "questions": 20,
+    "asked": "f0a439f394b74b622f2f204178bc44fd0a242a88578214565030e5b2d7540b6f"
+   },
+   "5": {
+    "messages": 18760,
+    "turns": "efb0401bc0e3b83f20312472e8a049267eedc551b3f6e4ccdfc7e5a7fac07533",
+    "questions": 20,
+    "asked": "b7d3bff0f1a1ebb36a8ffe938719fb60a1af07a9845d6f7b49b77bb1e915b7be"
+   },
+   "6": {
+    "messages": 19958,
+    "turns": "5e5809dd62eecddd51c3efd3eefce9938ca91a28fa67de43ff27a2734673ab2f",
+    "questions": 20,
+    "asked": "d5a52a77423dc378c1275126f9bd5ed38298aaa27ab001452046a628b953d503"
+   },
+   "7": {
+    "messages": 22652,
+    "turns": "ae376320e3123d3e495689ec260418aba3252e93b9d9867f4062d1d1cb90e7e7",
+    "questions": 20,
+    "asked": "c9bf822f130994bde4b0aaab8e993e3364fdd0c384cd3616d9ff4a19792fbf95"
+   },
+   "8": {
+    "messages": 22560,
+    "turns": "13bef88eea50af0d102538667cc7d33ce23dd02807253bb60525f81616e6186c",
+    "questions": 20,
+    "asked": "1ad8c9b18f1864597745fe5ed44bd6d2b87452beafe79c06c34aab9dc842c624"
+   },
+   "9": {
+    "messages": 22704,
+    "turns": "2bb8ade1d50ea8955e3b67ea66b1191aa6c0e98824ff3854b8886d17a397848d",
+    "questions": 20,
+    "asked": "c504969e7661edd6ac30d490801dbabad92356f3a26c2dad8c6f1f22cd5708bb"
+   },
+   "10": {
+    "messages": 23716,
+    "turns": "3d9d5f79ee55ea818562ab338a19779566f1bb39f29ae0f8f4943132f6ab6fa3",
+    "questions": 20,
+    "asked": "44e335805a9affd9142df8797b9ade3c1621bdc5771c42603ae02e171eee08d3"
+   }
+  }
+ }
+}

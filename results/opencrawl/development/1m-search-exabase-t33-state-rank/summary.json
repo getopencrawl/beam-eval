@@ -1,0 +1,10 @@
+{
+  "dataset": "BEAM",
+  "split": "1m",
+  "partial": true,
+  "questions": 240,
+  "questionsInSplit": 700,
+  "failedQuestions": 0,
+  "microAverage": 0.8751041666666667,
+  "note": "Stopped after 12 of 35 conversations; no summary was written by the harness. This file was generated from results.jsonl."
+}

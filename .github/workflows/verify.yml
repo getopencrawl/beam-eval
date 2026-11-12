@@ -1,0 +1,26 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Recompute every reported number from the per-question records
+        run: python verify.py --all
+      - name: The harness compiles
+        run: python -m compileall -q harness
+      - name: The harness's scorer gives every stored verdict its stored score
+        run: |
+          pip install --quiet scipy httpx
+          cd harness && python check_harness.py

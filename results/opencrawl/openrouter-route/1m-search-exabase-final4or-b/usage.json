@@ -1,0 +1,26 @@
+{
+  "expand": {
+    "calls": 700,
+    "prompt_tokens": 84116,
+    "completion_tokens": 24470
+  },
+  "follow_up": {
+    "calls": 700,
+    "prompt_tokens": 1443294,
+    "completion_tokens": 28666
+  },
+  "answer": {
+    "calls": 700,
+    "prompt_tokens": 7917461,
+    "completion_tokens": 234220,
+    "openrouter_cost": 2.260337,
+    "openrouter_providers": {
+      "OpenAI": 700
+    }
+  },
+  "judge": {
+    "calls": 2426,
+    "prompt_tokens": 1665804,
+    "completion_tokens": 101910
+  }
+}
