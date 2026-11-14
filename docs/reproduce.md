@@ -33,7 +33,7 @@ log. It also reads the README's result table out of the file. It exits non-zero 
 cd harness && pip install -r requirements.txt
 python check_harness.py              # every stored verdict gives its stored score under harness/scoring.py
 python check_harness.py --dataset    # the loader gives the conversations, questions and prompts the runs recorded
-python check_harness.py --prompts    # the prompts are those of ExaBase's published adapter
+python check_harness.py --prompts    # the prompts are those of the published adapter (see NOTICE.md)
 ```
 
 This matters because the runs were made with an earlier version of the harness; [harness/README.md](../harness/README.md)

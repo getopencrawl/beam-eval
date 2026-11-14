@@ -1,8 +1,8 @@
 # The note-writing prompts before the correction
 
 The README describes a correction made before publication: two prompts that write memory notes carried benchmark
-content as examples. This repository is published as one snapshot, so the earlier text of those prompts is kept
-here. The prompts as they are now are in [`harness/facts.py`](../harness/facts.py) and
+content as examples. This repository is published without its earlier commits, so the earlier text of those prompts is
+kept here. The prompts as they are now are in [`harness/facts.py`](../harness/facts.py) and
 [`harness/conflicts.py`](../harness/conflicts.py); only the examples differ.
 
 Notes written from the earlier prompts are in [`memory/before-rebuild/`](../memory/), and the runs that searched

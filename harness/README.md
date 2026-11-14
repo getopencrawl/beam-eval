@@ -29,7 +29,7 @@ pip install -r requirements.txt      # Python 3.11 or newer
 python check_harness.py              # every stored verdict gives its stored score under scoring.py
 python check_harness.py --dataset    # the loader against fingerprints of what the runs ingested, and against the
                                      # questions, reference answers, moments and answer prompts the runs stored
-python check_harness.py --prompts    # exabase_prompts.py against ExaBase's published file
+python check_harness.py --prompts    # exabase_prompts.py against the published adapter file
 ```
 
 The fingerprints in `fixtures/dataset-fingerprints.json` were made with the loader the runs used: one digest per

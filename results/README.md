@@ -123,7 +123,11 @@ ability.
 - The paired replays of one test of a third-party relevance model as a filter between search and evidence assembly.
   The test was withdrawn within the hour and its records were never analysed.
 - The partial records of one development run (`t28`), stopped and discarded on 2026-11-10 when its memory was found
-  to be contaminated by an earlier experiment. With the item above, these are the run records left out.
+  to be contaminated by an earlier experiment. With the item above, these are the run records left out of the work
+  up to 2026-11-12.
+- The records of work done on 2026-11-13, after the reported runs: answers and judgements under other vendors'
+  published protocols, a replay of one vendor's published contexts, and a rerun of the profile-memory variant. No
+  reported number rests on them; see the last entry of [the experiment log](../docs/experiment-log.md).
 - Two development runs (`t33`, pinned state sheets) were stopped after 240 of 700 questions. They are included,
   marked `"partial": true` in a summary generated from their records, because one line of Table 8 rests on them.
 - The reference system's own published records. They are not redistributed here; see

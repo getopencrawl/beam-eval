@@ -1,7 +1,8 @@
 # Experiment log
 
 The chronological record of the work, written as it happened between 2026-11-09 and 2026-11-12: every configuration
-tried, what it scored, what was adopted and what was dropped. It is the long form of Sections 5.5 to 5.7 of the
+tried, what it scored, what was adopted and what was dropped. A last entry holds corrections made on 2026-11-14, and
+one earlier entry was corrected in place that day, with a note. It is the long form of Sections 5.5 to 5.7 of the
 [paper](../paper/opencrawl-beam.md). Entries were edited for publication to remove references to private
 infrastructure, to point paths at this repository's layout, and to leave out the name of the system we compare
 with, which is called the reference system throughout, together with the scores it reports for itself by length
@@ -552,13 +553,15 @@ Six of the ten intervals clear zero; none of the four others is a significant de
 
 ## Other published BEAM numbers
 
-Found by web search on 2026-11-11. All are self-reported and the protocols are mostly not stated, so none is comparable with ours or with each other:
+Found by web search on 2026-11-11. All are self-reported, each under its own protocol, so none is comparable with ours or with each other.
 
-- Hindsight (Vectorize; [post of 2026-04-02](https://hindsight.vectorize.io/blog/2026/04/02/beam-sota)): 73.4 / 71.1 / 73.9 / 64.1 at 100K / 500K / 1M / 10M. Answer model, prompt and judge are not stated. It lists Honcho at 63.0 / 64.9 / 63.1 / 40.6.
-- Mem0 ([post of April 2026](https://mem0.ai/blog/mem0-the-token-efficient-memory-algorithm)): 64.1 at 1M and 48.6 at 10M with one retrieval call and under 7,000 tokens per question. Answer model and judge are not stated.
+*Corrected on 2026-11-14. As first written, this entry said that the protocols were mostly not stated, and of Hindsight and Mem0 that answer model, prompt and judge were not stated. They are stated, in the benchmark repositories behind the two posts, which we had not read. The two bullets and the closing paragraph now say what those repositories record; the scores are as first written.*
+
+- Hindsight (Vectorize; [post of 2026-04-02](https://hindsight.vectorize.io/blog/2026/04/02/beam-sota)): 73.4 / 71.1 / 73.9 / 64.1 at 100K / 500K / 1M / 10M. The [Agent Memory Benchmark's repository](https://github.com/vectorize-io/agent-memory-benchmark) holds, for each question, the context, the answer and the score, and records Gemini 3.1 Pro (preview) as the answer model and Gemini 2.5 Flash-Lite as the judge. The results were added on 2026-04-01 together with the benchmark's BEAM adapter of that day, whose category-keyed answer prompt adds guidance from the dataset's annotations as the annotation-aided prompt here does. The benchmark has since replaced that prompt with a single one without that guidance and changed how it judges (its commit of 2026-06-23); the published results predate those changes. The post lists Honcho at 63.0 / 64.9 / 63.1 / 40.6.
+- Mem0 ([post of April 2026](https://mem0.ai/blog/mem0-the-token-efficient-memory-algorithm)): 64.1 at 1M and 48.6 at 10M with one retrieval call and under 7,000 tokens per question. Its [benchmark repository](https://github.com/mem0ai/memory-benchmarks) holds the harness and, for each question, the answer and its scores: GPT-5 answers under Mem0's own answer prompt, GPT-5 judges, and a question's score is the mean over its rubric items.
 - The reference system of this repository publishes about 90 under the annotation-aided prompt.
 
-What follows: the controlled result here is a head-to-head with one system, not a ranking of the field. Our scores under BEAM's own prompt (62.1 at 1M, 52.6 at 10M, reader without reasoning) are below Hindsight's self-reported ones on their face. Whether that reflects memory or protocol is unknown until their evidence, or their system, goes through the same answer call and judge.
+What follows: the controlled result here is a head-to-head with one system, not a ranking of the field. Our scores under BEAM's own prompt (62.1 at 1M, 52.6 at 10M, reader without reasoning) are below Hindsight's self-reported ones on their face; those were made, as far as its repository shows, under a prompt of the annotation-aided kind, by another answer model, and graded by another judge. Whether a difference between two such numbers reflects memory or protocol cannot be read off them. It takes putting their evidence, or their system, through the same answer call and judge.
 
 ## Audit run from the harness as prepared for publication (2026-11-12)
 
@@ -838,3 +841,15 @@ above now gives both statistics); "every replay is pooled" needed the exception 
 Not done: the two time-ordered set-ups of the reference side were not rerun with the order corrected, and the
 replay above measures the flaw on stored prompts, not in fresh runs of a corrected harness.
 
+## Corrections on the day of publication (2026-11-14)
+
+Corrections of what the repository says, made after the last review and before publication. None touches a run or a reported number; `verify.py` and the harness are unchanged.
+
+- *Other vendors' protocols.* The README, the note on the reference system, the paper and this log said that other vendors' BEAM protocols were not stated, or not fully. For two of them that was wrong: we had read their posts and not the benchmark repositories behind them. Hindsight's results are in the Agent Memory Benchmark's repository with, for each question, the context, the answer and the score (Gemini 3.1 Pro answering under the category-keyed BEAM prompt that benchmark had at the time, since replaced; Gemini 2.5 Flash-Lite judging). Mem0's are in its benchmark repository with per-question answers and scores (GPT-5 answering under Mem0's own prompt, GPT-5 judging, a question's score being the mean over its rubric items). The documents now say what the two protocols we have read are, instead of calling them unstated, and make no statement about the protocols we have not read. The entry "Other published BEAM numbers" above is corrected in place, with a note.
+- *A claim of the paper that was too strong.* Its related-work section called the reference system "the one system whose published records make such a comparison possible". Hindsight publishes the context of every question too. The sentence now says only that the comparison is with one system that publishes the evidence its answer model read, and the note on the reference system says that it is not the only one.
+- *Where the adapter's prompts come from.* The adapter file whose prompts we reproduce matches the BEAM adapter of the Agent Memory Benchmark, as added to that repository on 2026-04-01, in 24 of its 25 function definitions, the code that holds both judge prompts included; the answer-prompt method differs in 29 lines, and the page it is published on was created on 2026-07-12. `NOTICE.md` and the README's credits now say so, and four places that called the adapter ExaBase's outright no longer do. Neither source states a licence.
+- *Wording.* "Published as one snapshot" became "published without its development history; its first commit is a snapshot made on 2026-11-12", because this entry is a second commit. The README mentions the closed pull request of opencrawl-core without linking it; the branch it proposed is linked as before. `CITATION.cff` carries the date of this entry.
+
+**Work after the reported runs, not in this repository.** On 2026-11-13, after the reported system and its numbers were final, the evidence of the reported system was answered and judged under other vendors' published protocols, one vendor's published contexts were replayed under our answer call and judge, and a variant with an always-loaded profile memory (`harness/profile_memory.py`, the experiment recorded as t15 and t26 above) was run again and not adopted: under our two prompts it made no difference we could measure, which agrees with the line on it in Table 8 of the paper. The records of those runs are not included, nothing reported here rests on them, and no claim is made from them here.
+
+One thing that rerun showed about the published harness: `run.py --profile` reads the passages of the profile file that a single search returns, which with the present index can be only part of the file (the rerun read each file whole, by following the links between its passages). The flag belongs to an experiment that was not adopted and no reported run uses it; whoever reuses it should read the file whole.

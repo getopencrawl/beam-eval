@@ -10,13 +10,18 @@ The code is licensed under the [Apache License 2.0](LICENSE), with one exception
 prompts of a published BEAM adapter ([source](https://fabric.so/p/beam-3VjBcqEVRofZyA5CeazeX)), reproduced unchanged
 so that answers are produced and judged the way they are for other published BEAM results that use it. We know
 the adapter as ExaBase's from published BEAM work that uses it, and follow that attribution; the page itself names
-no organisation and states no license. The SHA-256 of the file is
+no organisation and states no license. The adapter file matches the BEAM adapter of the
+[Agent Memory Benchmark](https://github.com/vectorize-io/agent-memory-benchmark)
+(`src/memory_bench/dataset/beam.py` as added there on 2026-04-01) in 24 of its 25 function definitions, the code
+that holds both judge prompts included; its answer-prompt method differs in 29 lines. The page was created on
+2026-07-12, after that version was public. That repository states no license either, and we do not know who wrote
+the lines that differ. The SHA-256 of the file is
 `584b672d957f3e6f75e96f881ec31da22e1039da1df5fbedb53dc6a9145cfc43`; `python harness/check_harness.py --prompts`
 downloads it and compares, and `harness/make_exabase_prompts.py` is how our copy was written from it. The prompts
 are not our work and are not covered by this repository's license; this attribution does not relicense them. The
 same text appears inside the answer prompts stored with some runs under `results/`. The scoring rules in
-`harness/scoring.py` are the ones the adapter implements; that code is ours. If you are the adapter's author and
-want the attribution or the reproduction changed, please open an issue.
+`harness/scoring.py` are the ones the adapter implements; that code is ours. If you are an author of the adapter, or of
+the benchmark it matches, and want the attribution or the reproduction changed, please open an issue.
 
 **Where the harness came from.** The runs in `results/` were made with an earlier version of this harness, which
 took its dataset loader, scorer and logging, and in modified form its model client and the frame of its run script,
@@ -49,5 +54,5 @@ answer call gave on that evidence, the judge's verdicts and scores, and aggregat
 
 ## Names
 
-OpenCrawl is not affiliated with ExaBase, OpenRouter, OpenAI or the authors of BEAM. Their names are used to say
+OpenCrawl is not affiliated with ExaBase, Vectorize, OpenRouter, OpenAI or the authors of BEAM. Their names are used to say
 whose work was used.

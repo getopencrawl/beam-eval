@@ -6,7 +6,7 @@ An evaluation of [OpenCrawl](https://github.com/getopencrawl/opencrawl-core)'s s
 [BEAM](https://arxiv.org/abs/2510.27246) (ICLR 2026), a benchmark of long-term conversational memory: 100
 conversations of 100K to 10M tokens, 2,000 questions, ten abilities.
 
-This repository contains the harness, the per-question records of every run, a script that recomputes the reported
+This repository contains the harness, the per-question records of the runs, a script that recomputes the reported
 numbers from those records, and a [paper](paper/opencrawl-beam.pdf).
 
 The comparison is with one published memory system, and it is controlled: the evidence that system published for
@@ -71,9 +71,11 @@ question cannot be answered. With no memory at all that prompt scores 46.6% at 1
 
 ### What it does not show
 
-- **Not a ranking of memory systems.** Other vendors report BEAM scores from their own runs, under protocols that are
-  not fully stated. Those numbers are not comparable with these, in either direction, and nothing here places
-  OpenCrawl among them.
+- **Not a ranking of memory systems.** Other vendors report BEAM scores from their own runs, each under its own
+  protocol. The two whose protocols we have read use other answer models and other judges; one uses its own answer
+  prompt, the other a prompt of the annotation-aided kind
+  ([log](docs/experiment-log.md#other-published-beam-numbers)). Those numbers are not comparable with these, in
+  either direction, and nothing here places OpenCrawl among them.
 - **Not a higher score than the reference system's published answers.** Graded by the same judge, its published
   answer set scores 89.08 against OpenCrawl's 88.25: OpenCrawl is 0.83 behind, and the interval (−1.49 to −0.16) excludes zero. The gap is widest at 10M
   (−3.04, −6.13 to +0.06). Its own reported score is about 90. We could not regenerate those answers from its
@@ -93,8 +95,9 @@ question or an answer as input, but for these six questions their instructions c
 The examples were replaced with invented ones, the fact cards and conflict notes were rebuilt, and the full system
 was run again. That rebuilt system is the one reported above. The plan, including that its numbers would replace the
 earlier ones whatever they were, was written into [the log](docs/experiment-log.md) and committed at 09:16 UTC on
-2026-11-12, before it was run; the runs finished between 11:40 and 13:04. This repository is published as one
-snapshot, without the commits before it, so that timing rests on our word.
+2026-11-12, before it was run; the runs finished between 11:40 and 13:04. This repository is published
+without its development history; its first commit is a snapshot made on 2026-11-12. That timing therefore rests on
+our word.
 
 | Lead over the reference evidence, all 2,000 questions | BEAM's own prompt | Annotation-aided prompt |
 |---|---|---|
@@ -167,7 +170,8 @@ repository alone, because that system's published records are not included. See
 1. **One answer call.** `gpt-5.6-luna` with reasoning off, one call per question, default temperature, the prompt
    text unchanged. This is the model and setting of the reference system's own harness.
 2. **One judge.** The same model grades every answer against BEAM's rubric items (0, 0.5 or 1 each), with the judge
-   prompts of the ExaBase adapter that the reference harness uses; event ordering is scored with Kendall's tau-b.
+   prompts of the published adapter that the reference harness uses (attributed to ExaBase; see
+   [NOTICE.md](NOTICE.md)); event ordering is scored with Kendall's tau-b.
    So "BEAM's own prompt" above means BEAM's answer prompt, not BEAM's whole protocol. Both systems' data were
    shaped and both systems' answers scored by the same code, the reference harness's own; see
    [Check the numbers](#check-the-numbers) for what this repository publishes in its place.
@@ -208,9 +212,8 @@ A self-hosted OpenCrawl built from the branch
 [`search-relevance-stemming`](https://github.com/getopencrawl/opencrawl-core/tree/search-relevance-stemming) of
 opencrawl-core (commit `95863d8`, on top of version 0.2.57), driven by the recall procedure in
 [`harness/run.py`](harness/run.py), over memory notes written by three passes in this repository. The branch was
-proposed as pull request [#137](https://github.com/getopencrawl/opencrawl-core/pull/137), which was closed without
-being merged. The runs were made at commit `97ed5b0`, which has the same tree; that repository's history was
-rewritten on 2026-11-11.
+proposed to opencrawl-core as a pull request, which was closed without being merged. The runs were made at commit
+`97ed5b0`, which has the same tree; that repository's history was rewritten on 2026-11-11.
 
 | Part | Where it lives | What it does |
 |---|---|---|
@@ -246,7 +249,8 @@ records are in [`results/`](results/), including 18 runs that turned out to be i
 [the experiment log](docs/experiment-log.md) describes each. Two sets of records are left out: a third-party
 relevance model was tried as a filter and withdrawn within the hour, and its records were never analysed; and one
 development run (`t28`) was stopped and discarded when its memory was found to be contaminated by an earlier
-experiment.
+experiment. Work done after the reported runs, on 2026-11-13, is not in this repository either; the last entry of
+the log says what it was. It did not change the reported system or its numbers.
 
 What limits how much the reported numbers owe to that search:
 
@@ -339,7 +343,9 @@ Four things measured along the way that affect anyone comparing scores on this b
 ## License and credits
 
 Code: [Apache 2.0](LICENSE). The annotation-aided prompt and the judge prompts come from a published BEAM adapter
-attributed to ExaBase and are reproduced unchanged, with that credit; they are not covered by the license.
+attributed to ExaBase. That adapter matches the BEAM adapter of the Agent Memory Benchmark as first added there
+(2026-04-01), except in part of the answer prompt. The prompts are reproduced unchanged, with that credit, and are
+not covered by the license.
 Everything under `results/` and `memory/` derives from the BEAM dataset and is distributed under CC BY-SA 4.0.
 [NOTICE.md](NOTICE.md) says what belongs to whom.
 

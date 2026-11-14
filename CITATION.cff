@@ -4,7 +4,7 @@ title: "Searchable Agent Memory at Ten Million Tokens: OpenCrawl on BEAM"
 type: software
 authors:
   - name: "OpenCrawl team"
-date-released: 2026-11-12
+date-released: 2026-11-14
 url: "https://github.com/getopencrawl/beam-eval"
 repository-code: "https://github.com/getopencrawl/beam-eval"
 license: Apache-2.0  # the code; the records under results/ and memory/ are CC BY-SA 4.0 (NOTICE.md)

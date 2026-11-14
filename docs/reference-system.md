@@ -10,17 +10,19 @@ Two reasons.
 
 1. **It publishes the evidence.** Its developers released a BEAM harness and, for each of the 2,000 questions, a
    record holding the exact evidence their answer model read. That is what makes a controlled comparison possible.
+   It is not the only system that does: Hindsight's published BEAM results hold each question's context too.
 2. **Its scores are the highest we know of** under the annotation-aided prompt: about 90 over all questions by its
    own report.
 
 Other vendors report BEAM scores too (see [the experiment log](experiment-log.md#other-published-beam-numbers)).
-Those numbers come from protocols that are not fully stated, so they are not comparable with the ones here, in either
-direction. Nothing in this repository ranks OpenCrawl among them.
+Each comes from its own protocol. The two we have read use other answer models and other judges, one with its own
+answer prompt and one with a prompt of the annotation-aided kind. They are not comparable with the numbers here, in
+either direction. Nothing in this repository ranks OpenCrawl among them.
 
 ## What it published, and what we did with it
 
 Its harness answers and judges with `gpt-5.6-luna`, reasoning off, through an API router (OpenRouter), using the
-prompts of ExaBase's BEAM adapter. Recall runs at the moment the question is asked, for up to 100 results within
+prompts of a published BEAM adapter attributed to ExaBase. Recall runs at the moment the question is asked, for up to 100 results within
 8,000 tokens of evidence. Its runs were made about six weeks before ours.
 
 We use its records in three ways. None of them runs its system.
